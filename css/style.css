@@ -1,0 +1,99 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3.9rem;
+  font-style: bold;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.container {
+  background-color: white;
+  /*height: 100vh;*/
+  margin: 0 auto;
+  width: 90%;
+}
+
+section{
+  background-color: #CFCFCF ;
+  color: #000 ;
+  height: 20rem;
+  margin-top: 1rem;
+  padding: 10rem 0;
+  padding-bottom: 2.5rem;
+}
+
+button{
+  background-color: #EAA166;
+  color: #07404C;
+  width: 210px;
+  height: 69px;
+  margin: 75px;
+  text-align: center;
+}
+
+section.navbar{
+  background-color: white;
+  float: right;
+  top: 0;
+}
+section.hero{
+  background-color: #BFD5DA;
+}
+
+section.capstone{
+  background-color: #FDEACE;
+  padding: 20rem 1rem;
+}
+
+section.commoncore{
+  background-color: #FDEACE;
+  padding: 20rem 1rem;
+}
+
+section.footer{
+  bottom: 0;
+  height: 2.5rem;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px){
+  .container {
+    width: 70rem;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  .container {
+    margin: 0 auto;
+    width: 98rem;
+  }
+}
+
+section{
+  float: left;
+  margin: 1%;
+  width: 98%;
+}
