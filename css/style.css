@@ -3,35 +3,73 @@
 }
 
 .container {
-  background-color: white;
+  background-img: url('img/backgroundcircle.jpg');
+  background-repeat: no-repeat;
   height: 100vh;
   margin: 0 auto;
   width: 90%;
   font-family: 'Raleway';
+
 }
 
 @font-face {
     font-family: 'caviar_dreamsregular';
-    src: url('../../caviardreams/caviardreams-webfont.woff2') format('woff2'),
-         url('../../caviardreams/caviardreams-webfont.woff') format('woff');
+    src: url('../caviardreams/caviardreams-webfont.woff2') format('woff2'),
+         url('../caviardreams/caviardreams-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
 
-html {
-  font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../caviardreams/caviardreams_bold-webfont.woff2') format('woff2'),
+         url('../caviardreams/caviardreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'social_media_circledregular';
+    src: url('../socialmedia/socialmedia-webfont.woff2') format('woff2'),
+         url('../socialmedia/socialmedia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-ul {
-  font-size: 20px;
-  font-family: 'caviar_dreamsregular';
+
+html {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1vh;
+}
+
+ul.navbar {
+  color: #07404C;
+  font-family: 'caviar_dreamsbold';
+  font-size: 2vh;
+  margin: 0;
+  padding: 0;
+}
+
+li.navbar {
+  float: right;
+  display: block;
+  padding: 30px;
+}
+
+img.headshot{
+  height: 150px;
+  width: 150px;
+
+}
+
+body {
+  background-image: url('backgroundcircle.jpg');
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   background-color: white;
-  font-family: Raleway;
 }
 
 p{
@@ -68,12 +106,17 @@ section{
 
 a.button{
   background-color: #EAA166;
+  border: none;
   color: #07404C;
-  font-family: 'caviar_dreamsregular';
-  height: 69px;
-  margin: 75px;
+  font-family: 'caviar_dreamsbold';
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-decoration: none;
+  /*height: 69px;
+  margin: 75px;*/
   text-align: center;
-  width: 210px;
+  /*width: 210px;*/
 
 }
 
@@ -96,10 +139,17 @@ section.commoncore{
   padding: 20rem 1rem;
 }
 
-section.footer{
+ul.footer{
   bottom: 0;
   height: 2.5rem;
   width: 100%;
+  background-color: #BFD5DA;
+  color: #07404C;
+  display: inline-block;
+}
+
+li.social{
+  font-family: "social_media_circledregular"
 }
 
 
