@@ -7,35 +7,40 @@
   height: 100vh;
   margin: 0 auto;
   width: 90%;
+  font-family: 'Raleway';
 }
 
 @font-face {
-  font-family: 'caviar_dreamsregular';
-  src: url('../../caviardreams/caviardreams-webfont.woff2'),
-       url('portfolio.caviardreams-webfont.woff') format('woff');
-}
+    font-family: 'caviar_dreamsregular';
+    src: url('../../caviardreams/caviardreams-webfont.woff2') format('woff2'),
+         url('../../caviardreams/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 html {
-  font-family: 'raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 10px;
 }
 
-ul.navbar {
+ul {
   font-size: 20px;
   font-family: 'caviar_dreamsregular';
 }
 
 body {
-  font-family: 'raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: white;
   font-family: Raleway;
 }
 
 p{
   font-size: 1.6rem;
+  font-family: 'Raleway';
 }
 
 h1 {
+  font-family: 'Raleway';
   font-size: 3.9rem;
   font-style: bold;
 }
@@ -57,17 +62,19 @@ section{
   padding: 10rem 0;
   padding-bottom: 2.5rem;
   font-size: 20px;
-  font-family: caviar_dreamsregular;
-}
+  font-family: 'Raleway';
 }
 
-a{
+
+a.button{
   background-color: #EAA166;
   color: #07404C;
-  width: 210px;
+  font-family: 'caviar_dreamsregular';
   height: 69px;
   margin: 75px;
   text-align: center;
+  width: 210px;
+
 }
 
 section.navbar{

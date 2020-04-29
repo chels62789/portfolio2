@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'caviar_dreamsregular';
-    src: url('portfolio.caviardreams-webfont.woff2') format('woff2'),
-         url('portfolio.caviardreams-webfont.woff') format('woff');
+    src: url('portfolio.html/caviardreams/caviardreams-webfont.woff2') format('woff2'),
+         url('portfolio.html/caviardreams/caviardreams-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
