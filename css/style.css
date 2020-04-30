@@ -35,6 +35,14 @@ html {
 
 }
 
+body {
+ background-image: url("../img/heroshapes.png");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-color: white;
+ font-family: 'Raleway', sans-serif;
+}
+
 .container {
   background-repeat: no-repeat;
   height: 100vh;
@@ -44,36 +52,57 @@ html {
 
 }
 
-.herobackground{
-float:left;
+/* NAVBAR: CD logo, name, navigation bar*/
+.header{
+  display:flex;
+  width: 100%;
 }
 
+.landinglogo {
+  flex: 1;
+}
+
+.navigationbar {
+  flex: 1;
+}
+
+.navbar{
+  float: right;
+  top: 0;
+}
 
 ul.navbar {
   color: #07404C;
   font-family: 'caviar_dreamsbold';
   font-size: 2vh;
-  margin: 0;
-  padding: 0;
 }
 
 li.navbar {
-  float: right;
-  display: block;
   padding: 30px;
 }
 
-img.headshot{
+
+/* HERO: personal description text, connect button, and headshot*/
+.hero{
+  color: #FDEACE;
+  with: 100%;
+}
+
+.heroleft {
+  flex: 1;
+}
+
+.heroright{
+  flex: 1;
+}
+
+img.headshot {
   height: 150px;
   width: 150px;
-
 }
 
 
-body {
-  font-family: 'Raleway', sans-serif;
-  background-color: white;
-}
+/* DEFAULT STYLES*/
 
 p{
   font-size: 1.6rem;
@@ -81,6 +110,7 @@ p{
   padding-bottom: 10px;
   margin-left: 20%;
   margin-bottom: 5%;
+  flex: 1;
 }
 
 h1 {
@@ -102,18 +132,6 @@ h3 {
 }
 
 
-/*section{
-  background-color: #CFCFCF ;
-  color: #000 ;
-  height: 20rem;
-  margin-top: 1rem;
-  padding: 10rem 0;
-  padding-bottom: 2.5rem;
-  font-size: 20px;
-  font-family: 'Raleway';
-}*/
-
-
 a.button{
   background-color: #EAA166;
   border: none;
@@ -121,79 +139,72 @@ a.button{
   font-family: 'caviar_dreamsbold';
   padding: 15px 32px;
   font-size: 16px;
-  margin-left: 275px;
+  margin-left: 20%;
   margin-top: 50px;
   margin-bottom: 50px;
   text-decoration: none;
-  /*height: 69px;
-  margin: 75px;*/
   text-align: center;
-  /*width: 210px;*/
-
-
 }
 
-section.navbar{
-  background-color: white;
-  float: right;
-  top: 0;
-}
-section.hero{
-  background-color: #BFD5DA;
-}
 
-section.capstone{
-  background-color: #FDEACE;
-  margin-top: 3%;
+/* CAPSTONE PROJECT*/
+
+.capstoneproject {
+  margin-top: 20%;
   margin-bottom: 3%;
-  height: 484px;
-  width: 50%;
-  float:left;
-  display:inline-block;
+  display: flex;
+}
 
-
+.capstone{
+  width: 100%;
+  background-color: #FDEACE;
+  flex: 1;
 
 }
 
 .capimage{
-  height: 484px;
-  width: 50%;
-  float: right;
-  display:inline-block;
+  width: 100%;
+  flex: 1;
 
 }
 
-section.commoncore{
-  background-color: #FDEACE;
-  display:inline-block;
+/* COMMONCORE PROJECT*/
+
+.commoncoreproject{
+  display:flex;
   margin-top: 3%;
   margin-bottom: 3%;
-  height: 484px;
-  width: 50%;
-  float: left;
+  width: 100%;
+}
+
+.commoncore{
+  background-color: #FDEACE;
+  flex: 1;
 
 }
 
 .ccfimage{
-  display:inline-block;
-  height: 484px;
-  width: 732px;
-  width: 50%;
-  float: right;
+  flex: 1;
+
 
 }
 
-ul.footer{
-  bottom: 0;
-  height: 7rem;
+/*  FOOTER */
+
+.footer{
+  width: 100%;
+  display:flex;
   background-color: #BFD5DA;
   color: #07404C;
 }
 
+.footertext{
+  flex: 1;
+}
+
 .social{
+  flex: 1;
   height: 1px;
-  float: right;
-  padding: 30px;
 }
 
 
