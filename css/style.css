@@ -2,15 +2,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-img: url('img/backgroundcircle.jpg');
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0 auto;
-  width: 90%;
-  font-family: 'Raleway';
-
-}
 
 @font-face {
     font-family: 'caviar_dreamsregular';
@@ -38,10 +29,25 @@
 
 
 html {
-  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 1vh;
+  box-sizing: border-box;
+
 }
+
+.container {
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0 auto;
+  width: auto;
+  font-family: 'Raleway';
+
+}
+
+.headerlogo{
+background-image: url('img/backgroundcircle.jpg');
+}
+
 
 ul.navbar {
   color: #07404C;
@@ -63,9 +69,6 @@ img.headshot{
 
 }
 
-body {
-  background-image: url('backgroundcircle.jpg');
-}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -75,12 +78,17 @@ body {
 p{
   font-size: 1.6rem;
   font-family: 'Raleway';
+  padding-bottom: 10px;
+  margin-left: 20%;
 }
 
 h1 {
-  font-family: 'Raleway';
+  font-family: 'caviar_dreamsbold';
   font-size: 3.9rem;
   font-style: bold;
+  padding-bottom: 50px;
+  margin-left: 20%;
+
 }
 
 h2 {
@@ -92,7 +100,7 @@ h3 {
 }
 
 
-section{
+/*section{
   background-color: #CFCFCF ;
   color: #000 ;
   height: 20rem;
@@ -101,7 +109,7 @@ section{
   padding-bottom: 2.5rem;
   font-size: 20px;
   font-family: 'Raleway';
-}
+}*/
 
 
 a.button{
@@ -111,12 +119,13 @@ a.button{
   font-family: 'caviar_dreamsbold';
   padding: 15px 32px;
   font-size: 16px;
-  margin: 4px 2px;
+  margin-left: 275px;
   text-decoration: none;
   /*height: 69px;
   margin: 75px;*/
   text-align: center;
   /*width: 210px;*/
+
 
 }
 
@@ -131,29 +140,50 @@ section.hero{
 
 section.capstone{
   background-color: #FDEACE;
-  padding: 20rem 1rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 484px;
+  width: 50%;
+  float:left;
+
+
+}
+
+.capimage{
+  height: 484px;
+  width: 732px;
+
 }
 
 section.commoncore{
   background-color: #FDEACE;
-  padding: 20rem 1rem;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 484px;
+
+}
+
+.ccfimage{
+  height: 484px;
+  width: 732px;
+
 }
 
 ul.footer{
   bottom: 0;
-  height: 2.5rem;
-  width: 100%;
+  height: 7rem;
   background-color: #BFD5DA;
   color: #07404C;
-  display: inline-block;
 }
 
 li.social{
-  font-family: "social_media_circledregular"
+  height: 5px;
+  float: right;
+  padding: 30px;
 }
 
 
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
   .container {
     width: 70rem;
   }
