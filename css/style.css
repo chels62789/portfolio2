@@ -37,7 +37,7 @@ html {
 
 body {
  background-image: url("../img/heroshapes.png");
- background-size: contain;
+ background-size: 100% 70.01rem;
  background-repeat: no-repeat;
  background-color: white;
  font-family: 'Raleway', sans-serif;
@@ -60,10 +60,13 @@ body {
 
 .landinglogo {
   flex: 1;
+  margin-top: 1%;
+  margin-left: 13%;
 }
 
 .navigationbar {
   flex: 1;
+  margin-right: 10%;
 }
 
 .navbar{
@@ -85,11 +88,15 @@ li.navbar {
 /* HERO: personal description text, connect button, and headshot*/
 .hero{
   color: #FDEACE;
-  with: 100%;
+  width: 100%;
+  display: flex;
+
 }
 
 .heroleft {
   flex: 1;
+  margin-left:8.5%;
+  margin-top: 3%;
 }
 
 .heroright{
@@ -97,8 +104,8 @@ li.navbar {
 }
 
 img.headshot {
-  height: 150px;
-  width: 150px;
+  height: 31rem;
+  width: 31rem;
 }
 
 
@@ -124,7 +131,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
+  font-family: 'Raleway';
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-left: 20%;
+  width: 372px;
 }
 
 h3 {
@@ -140,7 +152,7 @@ a.button{
   padding: 15px 32px;
   font-size: 16px;
   margin-left: 20%;
-  margin-top: 50px;
+  margin-top: 20%;
   margin-bottom: 50px;
   text-decoration: none;
   text-align: center;
