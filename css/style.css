@@ -107,6 +107,7 @@ li.navbar {
 }
 
 img.headshot {
+  margin-top: 5%;
   height: 31rem;
   width: 31rem;
 }
@@ -119,7 +120,7 @@ p{
   font-size: 1.6rem;
   font-family: 'Raleway';
   padding-bottom: 10%;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-bottom: 5%;
   flex: 1;
 
@@ -216,6 +217,10 @@ a.button{
   width: 100%;
 }
 
+img.ccfpreview{
+  width: 100%;
+}
+
 /*  FOOTER */
 
 .footer{
@@ -223,11 +228,15 @@ a.button{
   display:flex;
   background-color: #BFD5DA;
   color: #07404C;
+  height: auto;
 }
 
 .footertext{
   flex: 1;
+  margin-top: 5%;
+  margin-left: 1%;
 }
+
 
 .socialicon{
   flex: 1;
@@ -236,8 +245,30 @@ a.button{
 .social{
   float: right;
   padding-right: 10%;
-  height: 2.5rem;
-  width: 2.5rem;
+  padding-top: 8%;
+
+}
+
+/* SOCIAL ICONS*/
+
+img.mail{
+  height: auto;
+  width: 5rem;
+}
+
+img.git{
+  height: auto;
+  width: 5rem;
+}
+
+img.linkedin{
+  height: auto;
+  width: 5rem;
+}
+
+img.insta{
+  height: auto;
+  width: 5rem;
 }
 
 
