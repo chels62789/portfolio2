@@ -51,19 +51,10 @@ body {
 
 }
 
-/* NAVBAR (CD logo, name, navigation bar)*/
-
-.header-homepage{
-  /*background-image: url("../img/heroshapes.png");*/
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  width: 100%;
-}
-
 .container2{
   background-image: url("../img/halfcircle.png");
   background-repeat: no-repeat;
+  /*background-position: 6.5% 0%;*/
   height: 100vh;
   margin: 0 auto;
   width: auto;
@@ -71,11 +62,32 @@ body {
 }
 
 
+/* NAVBAR (CD logo, name, navigation bar)*/
+
+.header-homepage{
+  /*background-image: url("../img/heroshapes.png");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: auto;
+}
+
+
+.header-other{
+  /*background-image: url("../img/heroshapes.png");*/
+  background-size: cover;/*100% 70.1rem;*/
+  background-repeat: no-repeat;
+  /*background-position: 15% 0%;*/
+  display: flex;
+  width: 100%;
+}
+
 
 .landinglogo {
   flex: 1;
-  margin-top: 1%;
-  margin-left: 14.5%;
+  padding-top: 1%;
+  padding-left: 14%;
+  text-decoration: none;
 }
 
 .navigationbar {
@@ -95,11 +107,11 @@ ul.navbar {
 }
 
 li.navbar {
-  padding: 30px;
+  padding: 3rem;
 }
 
-
-/* HERO (personal description text, connect button, and headshot) */
+/**********************HERO************************/
+/* HERO HOMEPAGE*/
 .hero{
   color: #FDEACE;
   width: 100%;
@@ -110,7 +122,7 @@ li.navbar {
 .heroleft {
   flex: 1;
   margin-left:11%;
-  margin-top: 3%;
+  margin-top: 7%;
 }
 
 .heroright{
@@ -126,15 +138,38 @@ img.headshot {
   width: 31rem;
 }
 
+/*HERO ABOUT*/
+.hero-about{
+  color: #07404C; /*dark green*/
+  display: flex;
+  margin-top: 5%;
+}
+
+.heroleft-about{
+  flex: 1;
+  padding-left: 8%;
+}
+
+.heroright-about{
+  flex: 1;
+}
+
+img.headshot-about{
+  margin-top: 5%;
+  margin-left: 15%;
+  height:17.5rem;
+  width:17.5rem;
+}
+
 
 
 /* DEFAULT STYLES*/
 
 p{
   font-size: 2rem;
-  line-height: 3rem;
+  line-height: 4rem;
   font-family: 'Raleway';
-  padding-bottom: 10%;
+  padding-bottom: 0%;
   margin-left: 25%;
   margin-bottom: 5%;
   flex: 1;
@@ -146,7 +181,7 @@ h1 {
   font-family: 'caviar_dreamsbold';
   font-size: 3.9rem;
   font-style: bold;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   padding-top: 10%;
   margin-left: 25%;
   color:
@@ -156,8 +191,8 @@ h1 {
 h2 {
   font-size: 3.125rem;
   font-family: 'Raleway';
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
   margin-left: 25%;
   width: 372px;
 
@@ -179,8 +214,8 @@ a.button{
   padding: 15px 32px;
   font-size: 16px;
   margin-left: 25%;
-  margin-top: 20%;
-  margin-bottom: 50px;
+  margin-top: 25%;
+  margin-bottom: 10rem;
   text-decoration: none;
   text-align: center;
 }
@@ -251,7 +286,7 @@ img.ccfpreview{
 
 .footertext{
   flex: 1;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 1%;
 }
 
@@ -263,7 +298,7 @@ img.ccfpreview{
 .social{
   float: right;
   padding-right: 10%;
-  padding-top: 8%;
+  padding-top: 5%;
 
 }
 
@@ -291,12 +326,11 @@ img.insta{
 
 /*************************** ABOUT*************************/
 
-
-.heroabout{
-  color: #07404C; /*dark green*/
+.abouttext{
+  height:auto;
+  padding-top: 1%;
+  padding-bottom: 10%;
 }
-
-
 
 
 
