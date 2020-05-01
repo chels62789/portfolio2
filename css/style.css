@@ -42,6 +42,7 @@ body {
 
 
 .container {
+  background-image: url("../img/heroshapes.png");
   background-repeat: no-repeat;
   height: 100vh;
   margin: 0 auto;
@@ -50,23 +51,25 @@ body {
 
 }
 
-/* NAVBAR: CD logo, name, navigation bar*/
+/* NAVBAR (CD logo, name, navigation bar)*/
 
 .header-homepage{
-  background-image: url("../img/heroshapes.png");
+  /*background-image: url("../img/heroshapes.png");*/
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   width: 100%;
 }
 
-.header-other{
+.container2{
   background-image: url("../img/halfcircle.png");
-  background-size: 50%;
   background-repeat: no-repeat;
-  display: flex;
-  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  width: auto;
+  font-family: 'Raleway';
 }
+
 
 
 .landinglogo {
@@ -96,7 +99,7 @@ li.navbar {
 }
 
 
-/* HERO: personal description text, connect button, and headshot*/
+/* HERO (personal description text, connect button, and headshot) */
 .hero{
   color: #FDEACE;
   width: 100%;
@@ -146,6 +149,7 @@ h1 {
   padding-bottom: 5%;
   padding-top: 10%;
   margin-left: 25%;
+  color:
 
 }
 
@@ -182,6 +186,7 @@ a.button{
 }
 
 
+/*************************** HOMEPAGE*************************/
 /* CAPSTONE PROJECT*/
 
 
@@ -283,6 +288,25 @@ img.insta{
   height: auto;
   width: 5rem;
 }
+
+/*************************** ABOUT*************************/
+
+
+.heroabout{
+  color: #07404C; /*dark green*/
+}
+
+
+
+
+
+
+
+/*************************** COMMON CORE FINDER*************************/
+
+
+
+
 
 
 /*@media screen and (min-width: 768px){
