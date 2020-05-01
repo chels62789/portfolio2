@@ -3,25 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio</title>
+    <title>About | Chelsea Doherty</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div style="background-image: url('img/heroblue.jpg');">
     <div class="container">
-      <ul class="navbar">
-        <li><a href="https://www.index.html/project"></a>Projects</li>
-        <li><a href="https://www.index.html/resume"></a>Resume</li>
-        <li><a href="https://www.index.html/about"></a>About</li>
-        <li><a href="https://www.index.html/cotact"></a>Contact</li>
-      </ul>
-      <section>
-        <p>Projects Resume About Contact</p>
-        <img src="img/logo.jpg">
-        <img src="img/headshot.jpg">
-      </section>
 
+      <!--- NAV BAR -->
+      <div class="header-other">
+        <section class="landinglogo">
+        <a href="index.html"><img src="img/landinglogo.png"></a>
+        </section>
+        <section class="navigationbar">
+          <ul class="navbar">
+            <li class="navbar"><a href="cotact.html"></a>Contact</li>
+            <li class="navbar"><a href="about.html"></a>About</li>
+            <li class="navbar"><a href="resume.html"></a>Resume</li>
+            <li class="navbar"><a href="project.html"></a>Projects</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- ABOUT TEXT -->
       <section>
         <h1>My Story</h1>
           <h2>Childhood</h2>
@@ -35,16 +39,23 @@
             <p>I started teaching art to the younger generation at first just teaching a few classes and then eventually creating an art department at a charter school and teaching grades K-8. I was creating projects, managing 30 students at a time on my own, and handling supply orders with budgets. My patience grew immensely and my organizational skills were enhanced more than I thought they could be.</p>
           <h2>UX/UI</h2>
             <p>I was interested in a career where I could incorporate my organizational skills, my love for process, and my creativity. I thought that switching over to graphic design would make the most sense. The more I looked into graphic design roles the more I learned about UX/UI Design. The more I looked into UX/UI Design the more I knew it would be a great fit. Design is important to me because it’s self reflection. You are able to let something inside of you out. UX/UI is a way to explore yourself, but equally importantly it is a way to understand the connections and relations of users.</p>
-          <a href="https://www.index.html/connect">Connect</a>
+          <a class="button" href="https://www.index.html/connect">Connect</a>
       </section>
 
-      <section class="footer">
+      <!--- footer -->
+      <div class="footer">
+        <section class="footertext">
         <p>Designed and developed by Chelsea Doherty © 2020</p>
-        <a class="social" href="email">C</a>
-        <a class="social" href="https://github.com/chels62789">Q</a>
-        <a class="social" href="https://www.linkedin.com/in/chelseamaried/">)</a>
-        <a class="social" href="instagram">k</a>
-      </section>
+        </section>
+        <ul class="socialicon">
+          <li class="social"><a href="https://github.com/chels62789"><img class="git" src="img/github.png"></a>
+          <li class="social"><a href="instagram"><img class="insta" src="img/instagram.png"></a>
+          <li class="social"><a href="https://www.linkedin.com/in/chelseamaried/"><img class="linkedin" src="img/linkedin.png"></a>
+          <li class="social"><a href="email"><img class="mail" src="img/mail.png"></a>
+        </ul>
+      </div>
+
+
     </div>
   </body>
 </html>

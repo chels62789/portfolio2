@@ -36,12 +36,10 @@ html {
 }
 
 body {
- background-image: url("../img/heroshapes.png");
- background-size: 100% 70.01rem;
- background-repeat: no-repeat;
  background-color: white;
  font-family: 'Raleway', sans-serif;
 }
+
 
 .container {
   background-repeat: no-repeat;
@@ -53,15 +51,28 @@ body {
 }
 
 /* NAVBAR: CD logo, name, navigation bar*/
-.header{
-  display:flex;
+
+.header-homepage{
+  background-image: url("../img/heroshapes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
   width: 100%;
 }
+
+.header-other{
+  background-image: url("../img/halfcircle.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+}
+
 
 .landinglogo {
   flex: 1;
   margin-top: 1%;
-  margin-left: 13%;
+  margin-left: 14.5%;
 }
 
 .navigationbar {
@@ -117,12 +128,14 @@ img.headshot {
 /* DEFAULT STYLES*/
 
 p{
-  font-size: 1.6rem;
+  font-size: 2rem;
+  line-height: 3rem;
   font-family: 'Raleway';
   padding-bottom: 10%;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-bottom: 5%;
   flex: 1;
+  width: 72rem;
 
 }
 
@@ -132,7 +145,7 @@ h1 {
   font-style: bold;
   padding-bottom: 5%;
   padding-top: 10%;
-  margin-left: 20%;
+  margin-left: 25%;
 
 }
 
@@ -141,7 +154,7 @@ h2 {
   font-family: 'Raleway';
   padding-bottom: 5%;
   padding-top: 5%;
-  margin-left: 20%;
+  margin-left: 25%;
   width: 372px;
 
 }
@@ -150,7 +163,7 @@ h3 {
   font-size: 2.4rem;
   padding-bottom: 10%;
   padding-top: 5%;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 
@@ -161,7 +174,7 @@ a.button{
   font-family: 'caviar_dreamsbold';
   padding: 15px 32px;
   font-size: 16px;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 20%;
   margin-bottom: 50px;
   text-decoration: none;
