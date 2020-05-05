@@ -197,7 +197,6 @@ p{
   padding-bottom: 0%;
   margin-left: 25%;
   margin-bottom: 5%;
-  flex: 1;
   width: 72rem;
 }
 
@@ -210,6 +209,18 @@ p{
   flex: 1;
   width: 36rem;
 }
+
+.threelist{
+  font-size: 1.6rem;
+  line-height: 4rem;
+  font-family: 'Raleway';
+  padding-bottom: 0%;
+  margin-bottom: 5%;
+  flex: 1;
+  width: 20rem;
+}
+
+
 
 
 h1 {
@@ -239,6 +250,12 @@ h3 {
   padding-top: 5%;
 }
 
+.h3home{
+    font-size: 2.4rem;
+    padding-bottom: 20%;
+    padding-top: 5%;
+}
+
 
 a.button{
   background-color: #EAA166;
@@ -261,7 +278,6 @@ a.button{
   font-family: 'caviar_dreamsbold';
   padding: 15px 32px;
   font-size: 16px;
-  margin-top: 4rem;
   margin-bottom: 10rem;
   text-decoration: none;
   text-align: center;
@@ -447,15 +463,52 @@ img.insta{
 }
 
 .mostleft{
-  flex:1;
+
+  padding-left: 25%;
+}
+
+.mostright{
+padding-left: 4%;
+}
+
+.percent{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.eight{
+  padding-right: 3%;
   padding-left: 25%;
 
 }
 
-.mostright{
-  flex:1;
+.sixtysix{
+  padding-right: 3%;
 
 }
+
+.eightythree{
+
+}
+
+
+
+.squaretext{
+  font-size: 2rem;
+  line-height: 4rem;
+  font-family: 'Raleway';
+  padding: 5% 5% 5% 5%;
+  margin:inherit;
+  margin-bottom: 5%;
+  width: 72rem;
+  background-color: #F2F1F1;
+}
+
+/***** The Competition ******/
+
+
+
 
 
 /*************************** MEDIA QUERIES *************************/
