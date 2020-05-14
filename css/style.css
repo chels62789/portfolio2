@@ -43,12 +43,12 @@ body {
 
 .container {
   background-image: url("../img/heroshapes.png");
-  background-size: 100%;
+  background-size: 1440px;
   background-repeat: no-repeat;
   font-family: 'Raleway';
   height: 100vh;
   margin: auto;
-  width: 1000px;
+  width: 1440px;
 }
 
 
@@ -749,6 +749,7 @@ img.insta{
 
 /*************************** MEDIA QUERIES *************************/
 
+/*
 
 @media screen and (min-width: 440px) {
 
