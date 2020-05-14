@@ -43,23 +43,23 @@ body {
 
 .container {
   background-image: url("../img/heroshapes.png");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
   font-family: 'Raleway';
   height: 100vh;
   margin: auto;
-  width: 100%;
+  width: 1000px;
 }
 
 
 .container2{
-  background-image: url("../img/halfcircle.png");
+  /*background-image: url("../img/backgroundabout.png");
   background-repeat: no-repeat;
   /*background-position: 6.5% 0%;*/
   font-family: 'Raleway';
   height: 100vh;
   margin: 0 auto;
-  width: auto;
+  width: 1440px;
 }
 
 
@@ -70,7 +70,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  width: auto;
+  width: 1440px;
 }
 
 
@@ -83,6 +83,9 @@ body {
   /*background-position: 15% 0%;*/
 }
 
+.cdlogo{
+  padding-right: 2%;
+}
 
 .landinglogo {
   flex: 1;
@@ -115,11 +118,9 @@ body {
 /**********************HERO************************/
 /* HERO HOMEPAGE*/
 .hero{
-  color: #FDEACE;
+  color: #07404C;
   display: flex;
   width: 100%;
-
-
 }
 
 .heroleft {
@@ -148,7 +149,7 @@ img.headshot {
 
 .heroleft-about{
   flex: 1;
-  padding-left: 8%;
+  padding-left: 14%;
 }
 
 .heroright-about{
@@ -362,8 +363,7 @@ img.ccfpreview{
 /*************************** ABOUT*************************/
 
 .abouttext{
-  padding-bottom: 10%;
-  padding-top: 1%;
+  padding-bottom: 12%;
 }
 
 .lastp{
@@ -693,8 +693,12 @@ ul{
 
 /***************************  FOOTER ***************************************/
 
+.footerline{
+  background-color: #07404C;
+  height: 3px;
+}
+
 .footer{
-  background-color: #BFD5DA;
   color: #07404C;
   display:flex;
   width: 100%;
@@ -704,6 +708,7 @@ ul{
   flex: 1;
   margin-top: 2%;
   margin-left: 1%;
+  margin-bottom: 1%;
 }
 
 
@@ -744,31 +749,48 @@ img.insta{
 
 /*************************** MEDIA QUERIES *************************/
 
-/*
-@media screen and (max-width: 1440px){
+
+@media screen and (min-width: 440px) {
+
+
 .container {
-  background-image: url("../img/heroshapes.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-family: 'Raleway';
-  height: 100vh;
-  margin: 0 auto;
-  width: 100%;
+  width: 440px;
+}
+
+.landinglogo {
+      width: 95%;
+}
+
+.logo {
+       width: 95%;
+}
+
+.navbar {
+  top: 0;
+  text-decoration: none;
+}
+
+
+}
+
+@media screen and (min-width: 991px){
+.container{
+  width: 991px;
 }
 }
 
 
-
-@media screen and (min-width: 768px){
-  .container {
-    width: 70rem;
+@media screen and (min-width: 1199px){
+  .containter{
+    width: 1199px;
   }
+
 }
 */
-/*
-@media screen and (min-width: 1025px){
-  .container {
-  background-size:cover;
 
+@media screen and (min-width: 1440px){
+  .containter{
+    width: 1440px;
   }
+
 }
