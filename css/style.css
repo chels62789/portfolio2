@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Raleway';
   height: 100vh;
-  margin: auto;
+  margin: 0 auto;
   width: 1440px;
 }
 
@@ -137,7 +137,7 @@ body {
 
 img.headshot {
   margin-top: 5%;
-  width: 60%;
+  width: 300px 300px;
 }
 
 /*HERO ABOUT*/
@@ -749,49 +749,117 @@ img.insta{
 
 /*************************** MEDIA QUERIES *************************/
 
-/*
 
-@media screen and (min-width: 440px) {
+/*MOBILE*/
+@media screen and (max-width: 575px) {
+.container{
+  width: 440px;
+  background-image: none;
+}
 
+.logotxt {
 
-.container {
+}
+
+img.headshot {
+  display: none;
+}
+
+.landinglogo{
+  padding-left: 2%;
+}
+
+.cdlogo {
+ margin-left: none;
+ padding-left: none;
+}
+
+.header-homepage{
+  display:inline-block;
+  padding: 0;
+  margin: 0;
   width: 440px;
 }
 
-.landinglogo {
-      width: 95%;
-}
-
-.logo {
-       width: 95%;
-}
-
-.navbar {
+.navigationbar {
+  display: none;
+  padding-left: 0%;
   top: 0;
   text-decoration: none;
 }
 
+.hero{
+  padding-left: 0;
+  display:block;
+  width: 440px;
+}
+
+.h3home{
+  display: block;
+}
+
+.capstoneproject{
+  display:inline-block;
+  background-color: #FDEACE;
+  width: 440px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.homedescription{
+  padding-bottom: 25px;
+}
+
+.capstone{
+  margin-left: 10%;
+}
 
 }
 
-@media screen and (min-width: 991px){
+.commoncoreproject{
+  display:block;
+  background-color: #FDEACE;
+  width: 440px;
+  padding-top: 50px;
+}
+
+
+
+.ccfpreview{
+  padding-top: 50px;
+}
+
+.footer{
+  display: block;
+  width: 440px;
+  text-align: left;
+}
+
+.footerline{
+  width:440px;
+}
+
+.socialicon{
+
+}
+
+
+
+/*IPAD*/
+
+/*
+@media screen and (max-width: 991px){
 .container{
   width: 991px;
 }
 }
 
-
-@media screen and (min-width: 1199px){
+/*
+/*LAPTOP*/
+/*
+@media screen and (max-width: 1199px){
   .containter{
     width: 1199px;
-  }
-
-}
-*/
-
-@media screen and (min-width: 1440px){
-  .containter{
-    width: 1440px;
   }
 
 }
