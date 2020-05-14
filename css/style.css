@@ -47,11 +47,10 @@ body {
   background-repeat: no-repeat;
   font-family: 'Raleway';
   height: 100vh;
-  margin: 0 auto;
-  width: auto;
-
-
+  margin: auto;
+  width: 100%;
 }
+
 
 .container2{
   background-image: url("../img/halfcircle.png");
@@ -136,9 +135,8 @@ body {
 }
 
 img.headshot {
-  height: 31rem;
   margin-top: 5%;
-  width: 31rem;
+  width: 60%;
 }
 
 /*HERO ABOUT*/
@@ -158,10 +156,9 @@ img.headshot {
 }
 
 img.headshot-about{
-  height:17.5rem;
   margin-left: 15%;
   margin-top: 5%;
-  width:17.5rem;
+  width:30%;
 }
 
 /*HERO PROJECT*/
@@ -365,7 +362,6 @@ img.ccfpreview{
 /*************************** ABOUT*************************/
 
 .abouttext{
-  height:auto;
   padding-bottom: 10%;
   padding-top: 1%;
 }
@@ -745,24 +741,34 @@ img.insta{
 }
 
 
+
 /*************************** MEDIA QUERIES *************************/
 
+/*
+@media screen and (max-width: 1440px){
+.container {
+  background-image: url("../img/heroshapes.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Raleway';
+  height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+}
+}
 
-/*@media screen and (min-width: 768px){
+
+
+@media screen and (min-width: 768px){
   .container {
     width: 70rem;
   }
 }
-
+*/
+/*
 @media screen and (min-width: 1025px){
   .container {
-    margin: 0 auto;
-    width: 98rem;
-  }
-}
+  background-size:cover;
 
-section{
-  float: left;
-  margin: 1%;
-  width: 98%;
+  }
 }
