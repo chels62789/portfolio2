@@ -182,6 +182,7 @@ img.headshot-about{
 .project-right{
   flex:1;
   padding-top: 3%;
+  width: 100%;
 }
 
 .ccfdesktop{
@@ -288,7 +289,7 @@ a.button{
   background-color: #EAA166;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #0000;
+  box-shadow: 0px 4px 4px #AFB4B4;
   color: #07404C;
   font-family: 'caviar_dreamsbold';
   font-size: 2rem;
@@ -452,19 +453,21 @@ padding-left: 4%;
   display: flex;
   margin-bottom: 5%;
   margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .eight{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
-  padding-right: 3%;
+  padding-right: 5%;
   margin-left: 25%;
 }
 
 .sixtysix{
   background-image: url("../img/bluecircle.png");
   background-repeat: no-repeat;
-  padding-right: 3%;
+  padding-right: 5%;
 }
 
 .eightythree{
@@ -500,7 +503,8 @@ padding-left: 4%;
 
 .competition{
   display: flex;
-  margin-left: 20%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2%;
   margin-bottom: 5%;
   text-align: center;
@@ -535,9 +539,6 @@ font-weight: bolder;
 
 .personaimg{
   padding-bottom: 10%;
-}
-
-.countney{
 }
 
 .alana{
@@ -754,19 +755,25 @@ img.insta{
 /*MOBILE*/
 @media screen and (max-width: 575px) {
 .container{
-  width: 440px;
+  max-width: 440px;
   background-image: none;
   margin: 0 auto;
 }
 
 .container2{
-  width: 440px;
+  max-width: 440px;
   background-image: none;
   margin: 0 auto;
 }
 
 img.headshot {
   display: none;
+}
+
+.logotxt{
+  height: 85%;
+  width: 80%;
+
 }
 
 .landinglogo{
@@ -782,6 +789,7 @@ img.headshot {
   display:inline-block;
   padding: 0;
   margin: 0;
+  max-width: 440px;
 }
 
 .navigationbar {
