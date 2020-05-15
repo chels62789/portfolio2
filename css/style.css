@@ -48,7 +48,7 @@ body {
   font-family: 'Raleway';
   height: 100vh;
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 
@@ -59,7 +59,7 @@ body {
   font-family: 'Raleway';
   height: 100vh;
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 
@@ -70,7 +70,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 
@@ -186,6 +186,7 @@ img.headshot-about{
 
 .ccfdesktop{
   padding-top: 10%;
+  width: 100%;
 }
 
 /* DEFAULT STYLES*/
@@ -320,7 +321,7 @@ a.button{
 .capstone{
   background-color: #FDEACE;
   flex: 1;
-  width: 5rem;
+
 }
 
 .capimage{
@@ -340,13 +341,13 @@ a.button{
   display:flex;
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 100%;
+
 }
 
 .commoncore{
   background-color: #FDEACE;
   flex: 1;
-  width: 32.3rem;
+
 }
 
 .ccfimage{
@@ -755,10 +756,13 @@ img.insta{
 .container{
   width: 440px;
   background-image: none;
+  margin: 0 auto;
 }
 
-.logotxt {
-
+.container2{
+  width: 440px;
+  background-image: none;
+  margin: 0 auto;
 }
 
 img.headshot {
@@ -778,7 +782,6 @@ img.headshot {
   display:inline-block;
   padding: 0;
   margin: 0;
-  width: 440px;
 }
 
 .navigationbar {
@@ -791,7 +794,6 @@ img.headshot {
 .hero{
   padding-left: 0;
   display:block;
-  width: 440px;
 }
 
 .h3home{
@@ -799,31 +801,21 @@ img.headshot {
 }
 
 .capstoneproject{
-  display:inline-block;
+  display:block;
   background-color: #FDEACE;
-  width: 440px;
   padding-top: 50px;
   margin-top: 50px;
 }
 
 .homedescription{
-  padding-bottom: 25px;
-}
-
-.capstone{
-  margin-left: 10%;
-}
-
+  padding-bottom: 50px;
 }
 
 .commoncoreproject{
   display:block;
   background-color: #FDEACE;
-  width: 440px;
   padding-top: 50px;
 }
-
-
 
 .ccfpreview{
   padding-top: 50px;
@@ -831,19 +823,17 @@ img.headshot {
 
 .footer{
   display: block;
-  width: 440px;
   text-align: left;
 }
 
 .footerline{
-  width:440px;
 }
 
 .socialicon{
 
 }
 
-
+}
 
 /*IPAD*/
 
