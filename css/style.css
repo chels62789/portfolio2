@@ -65,6 +65,10 @@ body {
 
 /* NAVBAR (CD logo, name, navigation bar)*/
 
+.mobilename{
+  display: none;
+}
+
 .header-homepage{
   /*background-image: url("../img/heroshapes.png");*/
   background-repeat: no-repeat;
@@ -175,8 +179,8 @@ img.headshot-about{
 }
 
 .project-left{
-  flex:1;
-  padding-left: 8%;
+  flex:1.2;
+  padding-left: 5%;
 }
 
 .project-right{
@@ -187,7 +191,7 @@ img.headshot-about{
 
 .ccfdesktop{
   padding-top: 10%;
-  width: 100%;
+  width: 90%;
 }
 
 /* DEFAULT STYLES*/
@@ -263,10 +267,11 @@ h5{
 
 
 .h3home{
+  display: block;
   font-size: 2.4rem;
   padding-bottom: 20%;
-  padding-top: 5%;
-  width: 37.2rem;
+  padding-top: 2%;
+
 }
 
 
@@ -285,8 +290,15 @@ a.button{
   text-align: center;
   text-decoration: none;
 }
+ .button{
+   text-decoration: none;
+ }
 
-.button-connect{
+ .email{
+   text-decoration: none;
+ }
+
+button.button-connect{
   background-color: #EAA166;
   border: none;
   border-radius: 5px;
@@ -734,6 +746,8 @@ ul{
 
 .socialicon{
   display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .social{
@@ -785,6 +799,15 @@ img.insta{
   margin: 0 auto;
 }
 
+h2{
+  margin-left: 10%;
+}
+
+.button-connect{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img.headshot {
   display: none;
 }
@@ -792,6 +815,7 @@ img.headshot {
 .logotxt{
   height: 85%;
   width: 80%;
+  display:none;
 
 }
 
@@ -805,15 +829,36 @@ img.headshot {
 }
 
 .header-homepage{
-  display:inline-block;
   padding: 0;
   margin: 0;
 }
 
-.navigationbar {
-  display: none;
-  padding-left: 0%;
-  top: 0;
+.navbar {
+  display: flex;
+}
+
+.mobilename{
+  background-color:#BFD5DA;
+  display: block;
+  font-size: 4rem;
+  font-family: 'caviar_dreamsbold';
+  margin-right: auto;
+  margin-left: auto;
+  color: #07404C;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.heroleft{
+  background-color:#BFD5DA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-decoration: none;
 }
 
@@ -822,8 +867,19 @@ img.headshot {
   display:block;
 }
 
+.mobilelanding{
+  background-color: #BFD5DA;
+}
+
 .h3home{
+  background-color: #BFD5DA;
   display: block;
+  margin-left: 0;
+  margin-top: 2%;
+}
+
+.capstone{
+  flex:none;
 }
 
 .capstoneproject{
@@ -831,9 +887,12 @@ img.headshot {
   background-color: #FDEACE;
   padding-top: 50px;
   margin-top: 50px;
+  margin-left: 0;
 }
 
 .homedescription{
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 50px;
 }
 
@@ -847,26 +906,27 @@ img.headshot {
   padding-top: 50px;
 }
 
-.footer{
-display:inline-block;
+/*MOBILE FOOTER*/
+
+.footerline{
+  margin-top: 5%;
 }
 
 .footertext{
-  text-align: center;
+  padding-top: 2%;
   font-size: 1.6rem;
-  width: 100%;
 }
-.social{
-  float: none;
-  margin: 0 auto;
-  padding-left: 5%;
-}
-
 
 .socialicon{
-  display:flex;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
 }
 
+.hero{
+  display:block;
+}
 
 }
 
