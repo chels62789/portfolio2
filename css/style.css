@@ -513,13 +513,16 @@ padding-left: 4%;
 
 
 .competition{
+  font-size: 1.6rem;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 5%;
   text-align: center;
-  width: 100rem;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 
@@ -666,7 +669,7 @@ li{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  width:80%;
+
 }
 
 /*
@@ -716,26 +719,27 @@ ul{
 
 .footer{
   color: #07404C;
-  display:flex;
+  display: inline-block;
   width: 100%;
 }
 
 .footertext{
-  font-size: 1.6rem;
   flex: 1;
   margin-top: 2%;
   margin-bottom: 1%;
+  font-size: 2rem;
+  text-align: center;
 }
 
 
 .socialicon{
-  flex: 1;
+  display: flex;
 }
 
 .social{
-  float: right;
-  padding-right: 10%;
-  padding-top: 5%;
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
 
 }
 
