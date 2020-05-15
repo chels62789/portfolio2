@@ -217,9 +217,10 @@ p{
   font-size: 2rem;
   line-height: 4rem;
   margin-bottom: 2%;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 0%;
-  width: 72rem;
+  width: 50%;
 }
 
 h1 {
@@ -438,6 +439,9 @@ img.ccfpreview{
 
 .most{
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .mostleft{
@@ -602,10 +606,12 @@ li{
 
 .ufsketch{
   padding-bottom: 5%;
+  width: 75%;
 }
 
 .ufvector{
   padding-bottom: 5%;
+  width: 75%;
 }
 
 
@@ -652,6 +658,7 @@ li{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  width:80%;
 }
 
 /*
@@ -828,15 +835,12 @@ img.headshot {
 }
 
 .footer{
-  display: block;
-  text-align: left;
+  display: inline;
+  text-align: center;
 }
-
-.footerline{
-}
-
-.socialicon{
-
+.social{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
