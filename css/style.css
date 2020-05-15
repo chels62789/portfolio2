@@ -220,7 +220,8 @@ p{
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 0%;
-  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 h1 {
@@ -332,8 +333,10 @@ a.button{
 }
 
 .homedescription {
-  margin-left: 25%;
-  width: 37.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 /* COMMONCORE PROJECT*/
@@ -441,11 +444,13 @@ img.ccfpreview{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .mostleft{
-  padding-left: 25%;
+
+
 }
 
 .mostright{
@@ -454,17 +459,20 @@ padding-left: 4%;
 
 .percent{
   display: flex;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 2rem;
+  padding-left: 25%;
+  padding-right: 25%;
+  line-height: 4rem;
 }
 
 .eight{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
   padding-right: 5%;
-  margin-left: 25%;
 }
 
 .sixtysix{
@@ -713,9 +721,9 @@ ul{
 }
 
 .footertext{
+  font-size: 1.6rem;
   flex: 1;
   margin-top: 2%;
-  margin-left: 1%;
   margin-bottom: 1%;
 }
 
@@ -730,6 +738,7 @@ ul{
   padding-top: 5%;
 
 }
+
 
 /* SOCIAL ICONS*/
 
@@ -835,13 +844,25 @@ img.headshot {
 }
 
 .footer{
-  display: inline;
+display:inline-block;
+}
+
+.footertext{
   text-align: center;
+  font-size: 1.6rem;
+  width: 100%;
 }
 .social{
-  margin-left: auto;
-  margin-right: auto;
+  float: none;
+  margin: 0 auto;
+  padding-left: 5%;
 }
+
+
+.socialicon{
+  display:flex;
+}
+
 
 }
 
