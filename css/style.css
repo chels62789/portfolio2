@@ -168,6 +168,9 @@ img.headshot-about{
 
 /*HERO PROJECT*/
 
+.project-right-mobile{
+  display: none;
+}
 .project-hero{
   color: #07404C; /*dark green*/
   display:flex;
@@ -353,8 +356,8 @@ h5{
 .commoncoreproject{
   color: #07404C;
   display:flex;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 
 }
 
@@ -808,6 +811,7 @@ h1{
 
 h2{
   margin-left: 10%;
+  padding-top: 10%;
 }
 
 p{
@@ -843,6 +847,7 @@ p{
 .cdlogo {
  margin-left: none;
  padding-left: none;
+
 }
 
 .header-homepage{
@@ -852,6 +857,7 @@ p{
 
 .navbar {
   display: flex;
+
 }
 
 .mobilename{
@@ -872,6 +878,7 @@ p{
   background-color:#BFD5DA;
   margin-left: auto;
   margin-right: auto;
+  height:300px;
   margin-top: 0;
   padding-top: 5%;
   padding-left: 10%;
@@ -897,12 +904,12 @@ p{
 
 .capstone{
   flex:none;
+  height: 350px;
+  margin-bottom: 0;
 }
 
 .capstoneproject{
   display:block;
-  background-color: #FDEACE;
-  padding-top: 50px;
   margin-top: 50px;
   margin-left: 0;
   padding-bottom: 0;
@@ -911,21 +918,206 @@ p{
 .homedescription{
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 50px;
+
 }
 
 .commoncoreproject{
   display:block;
-  background-color: #FDEACE;
-  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 0;
+}
+
+.commoncore{
+  height:375px;
+}
+
+.hero{
+  display:block;
+
+}
+
+.hero-about{
+  padding-bottom: 10%;
+  background-color:#BFD5DA;
+  margin-bottom: 10%;
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.heroleft-about{
+  padding-left:0;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+img.headshot-about{
+  width:40%;
 }
 
 .ccfpreview{
-  padding-top: 50px;
 
 }
 
-/*MOBILE FOOTER*/
+.spacer2{
+
+}
+
+/*CASESTUDY MOBILE*/
+.centerimg{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.project-hero{
+  background-color: #BFD5DA;
+  display: inline-block;
+  height: 700px;
+}
+
+.ccfdesktop{
+  width:100%;
+  padding-bottom: 5%;
+}
+
+.project-right-mobile{
+  display: block;
+  width: 100%;
+}
+.project-right{
+  display:none;
+}
+
+.role{
+  margin-left: 5%;
+}
+.deliverables{
+  margin-right: 5%;
+}
+
+.tools{
+  margin-left: 5%;
+}
+
+.casestudysection{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
+  margin-top: 10%;
+}
+
+.onesixbold{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.most{
+  display:block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.percent{
+  display:block;
+  width: 80%;
+  padding:0;
+}
+
+.squaretext{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competition{
+  text-align: left;
+  padding-top: 5%;
+  width:80%;
+  display:block;
+}
+
+.pinterest{
+  padding-bottom: 10%;
+}
+
+.googlec{
+  padding-bottom: 10%;
+  line-height: 3rem;
+}
+
+.squaretextblue{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personas{
+  display:block;
+}
+
+.courtney{
+  padding-top: 10%;
+}
+
+.alana{
+  padding-left: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+h6{
+  line-height: 3rem;
+  width: 80%;
+}
+.comps{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.buttoncasestudy{
+  margin-left: 10%;
+}
+
+.audience{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width: 80%;
+}
+
+.priorities{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width:80%
+}
+
+.userflows{
+  padding-top: 5%;
+  margin-left: 0;
+}
+
+.ufsketch{
+  width: 100%;
+}
+
+.ufvector{
+  width: 100%;
+}
+
+.whatchange{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.brainstormname{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*FOOTERMOBILE*/
 
 .footerline{
   margin-top: 5%;
@@ -942,24 +1134,6 @@ p{
   padding-right: 10%;
   padding-bottom: 2%;
 }
-
-.hero{
-  display:block;
-
-}
-
-.hero-about{
-  padding-bottom: 5%;
-  display: inline;
-}
-
-.heroleft-about{
-  padding-left:0;
-}
-
-
-
-
 
 
 
