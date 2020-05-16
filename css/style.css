@@ -971,12 +971,13 @@ img.headshot-about{
 
 .project-hero{
   background-color: #BFD5DA;
-  display: inline-block;
-  height: 700px;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .ccfdesktop{
-  width:100%;
+  padding-left: 10%;
   padding-bottom: 5%;
 }
 
@@ -1136,11 +1137,6 @@ h6{
 }
 
 
-
-
-
-
-
 }
 
 /*IPAD*/
@@ -1149,6 +1145,13 @@ h6{
 @media screen and (max-width: 991px){
 .container{
   width: 991px;
+}
+
+.project-hero{
+  background-color: #BFD5DA;
+  display: inline-block;
+  width: 100%;
+  height: 110%;
 }
 }
 
