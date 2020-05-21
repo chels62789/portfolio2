@@ -140,8 +140,8 @@ body {
 }
 
 img.headshot {
-  margin-top: 5%;
-  width: 300px 300px;
+  padding-top: 5%;
+  width: 70%;
 }
 
 /*HERO ABOUT*/
@@ -532,7 +532,7 @@ padding-left: 4%;
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 5%;
-  text-align: center;
+  text-align: left;
   width: 100%;
   padding-left: 20%;
   padding-right: 20%;
@@ -545,15 +545,28 @@ padding-left: 4%;
   line-height: 3rem;
   margin-top: 5%;
   margin-bottom: 5%;
-  width: 60%;
 }
 
-b{
-font-size: 1.6rem;
-line-height: 3rem;
-font-weight: bolder;
+b.comps{
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: bolder;
 }
 
+.pinterest{
+  flex: 1;
+  padding-right: 10%;
+}
+
+.googlec{
+  flex:1;
+  padding-right: 10%;
+}
+
+.tpayt{
+  flex:1;
+}
 
 /***** USER PERSONAS ******/
 
@@ -868,7 +881,7 @@ p{
   margin-right: auto;
   margin-left: auto;
   color: #07404C;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 
@@ -942,17 +955,22 @@ p{
   margin-bottom: 10%;
   margin-top: 0;
   padding-top: 5%;
+  display: block;
 }
 
 .heroleft-about{
-  padding-left:0;
+  padding-left:0%;
   margin-top: auto;
   margin-bottom: auto;
+}
 
-}
+
 img.headshot-about{
-  width:40%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 .ccfpreview{
 
@@ -1136,31 +1154,377 @@ h6{
   padding-bottom: 2%;
 }
 
+}
+
+
+/*IPAD PORTRAIT*/
+@media screen and (max-width: 768px) {
+
+  img.headshot {
+  display: none;
+  }
+
+.container{
+  width: 100%;
+  background-image: none;
+  margin: 0 auto;
+}
+
+.container2{
+  width: 100%;
+  background-image: none;
+  margin: 0 auto;
+}
+
+h1{
+  margin-left: 10%;
+}
+
+h2{
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.button{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.button-connect{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logotxt{
+  height: 85%;
+  width: 80%;
+  display:none;
 
 }
 
-/*IPAD*/
+.landinglogo{
+  padding-left: 2%;
+}
 
-/*
-@media screen and (max-width: 991px){
-.container{
-  width: 991px;
+.cdlogo {
+ margin-left: none;
+ padding-left: none;
+
+}
+
+.header-homepage{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.mobilename{
+  background-color:#BFD5DA;
+  display: block;
+  font-size: 4rem;
+  font-family: 'caviar_dreamsbold';
+  margin-right: auto;
+  margin-left: auto;
+  color: #07404C;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.heroleft{
+  background-color:#BFD5DA;
+  margin-left: auto;
+  margin-right: auto;
+  height:400px;
+  margin-top: 0;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-decoration: none;
+}
+
+.hero{
+  padding-left: 0;
+  display:block;
+}
+
+.mobilelanding{
+  background-color: #BFD5DA;
+}
+
+.h3home{
+  background-color: #BFD5DA;
+  display: block;
+  margin-left: 0;
+  margin-top: 2%;
+}
+
+.capstone{
+  flex:none;
+  height: 400px;
+  margin-bottom: 0;
+}
+
+.capstoneproject{
+  display:block;
+  margin-top: 50px;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+.homedescription{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.commoncoreproject{
+  display:block;
+  margin-top: 50px;
+  padding-bottom: 0;
+}
+
+.commoncore{
+  height:450px;
+}
+
+.hero{
+  display:block;
+
+}
+
+.hero-about{
+  padding-bottom: 10%;
+  background-color:#BFD5DA;
+  margin-bottom: 10%;
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.heroleft-about{
+  padding-left:0;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+img.headshot-about{
+  width:40%;
+}
+
+.ccfpreview{
+
+}
+
+.spacer2{
+
+}
+
+/*CASESTUDY MOBILE*/
+.centerimg{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .project-hero{
   background-color: #BFD5DA;
-  display: inline-block;
+  display: block;
   width: 100%;
-  height: 110%;
-}
+  height: 1000px;
 }
 
-/*
-/*LAPTOP*/
-/*
-@media screen and (max-width: 1199px){
-  .containter{
-    width: 1199px;
-  }
+.ccfdesktop{
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.project-right-mobile{
+  display: block;
+  width: 100%;
+}
+.project-right{
+  display:none;
+}
+
+.role{
+  margin-left: 5%;
+}
+.deliverables{
+  margin-right: 5%;
+}
+
+.tools{
+  margin-left: 5%;
+}
+
+.casestudysection{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
+  margin-top: 10%;
+}
+
+.onesixbold{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.most{
+  display:block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mostright{
+  padding-left: 0;
+}
+
+.percent{
+  display:block;
+  width: 80%;
+  padding:0;
+}
+
+.squaretext{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competition{
+  text-align: left;
+  padding-top: 5%;
+  width:80%;
+  display:block;
+}
+
+.pinterest{
+  padding-bottom: 10%;
+}
+
+.googlec{
+  padding-bottom: 10%;
+  line-height: 3rem;
+}
+
+.squaretextblue{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personas{
+  display:block;
+}
+
+.courtney{
+  padding-top: 10%;
+}
+
+.alana{
+  padding-left: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+h6{
+  line-height: 3rem;
+  width: 80%;
+}
+
+b{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  line-height: 3rem;
+
+}
+.comps{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.buttoncasestudy{
+  margin-left: 10%;
+}
+
+.audience{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width: 80%;
+}
+
+.priorities{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width:80%
+}
+
+.userflows{
+  padding-top: 5%;
+  margin-left: 0;
+}
+
+.ufsketch{
+  width: 100%;
+}
+
+.ufvector{
+  width: 100%;
+}
+
+.whatchange{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.brainstormname{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.addmargin{
+ padding-left: 0;
+ margin-left: 10%;
+}
+
+.heroleft-about{
+  padding-left: 30%;
+}
+
+/*FOOTERMOBILE*/
+
+.footerline{
+  margin-top: 5%;
+}
+
+.footertext{
+  padding-top: 2%;
+  font-size: 1.6rem;
+}
+
+.socialicon{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
 
 }
