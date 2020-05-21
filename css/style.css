@@ -798,372 +798,12 @@ img.insta{
 
 /*************************** MEDIA QUERIES *************************/
 
-
-/*MOBILE*/
-@media screen and (max-width: 575px) {
-
-  img.headshot {
-    display: none;
-  }
-
-.container{
-  width: 100%;
-  background-image: none;
-  margin: 0 auto;
-}
-
-.container2{
-  width: 100%;
-  background-image: none;
-  margin: 0 auto;
-}
-
-h1{
-  margin-left: 10%;
-}
-
-h2{
-  margin-left: 10%;
-  padding-top: 10%;
-}
-
-p{
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
-}
-
-.button{
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: auto;
-}
-
-.button-connect{
-  margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.logotxt{
-  height: 85%;
-  width: 80%;
-  display:none;
-
-}
-
-.landinglogo{
-  padding-left: 2%;
-}
-
-.cdlogo {
- margin-left: none;
- padding-left: none;
-
-}
-
-.header-homepage{
-  padding: 0;
-  margin: 0;
-}
-
-.navbar {
-  display: flex;
-
-}
-
-.mobilename{
-  background-color:#BFD5DA;
-  display: block;
-  font-size: 4rem;
-  font-family: 'caviar_dreamsbold';
-  margin-right: auto;
-  margin-left: auto;
-  color: #07404C;
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
-
-}
-
-.heroleft{
-  background-color:#BFD5DA;
-  margin-left: auto;
-  margin-right: auto;
-  height:300px;
-  margin-top: 0;
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-decoration: none;
-}
-
-.hero{
-  padding-left: 0;
-  display:block;
-}
-
-.mobilelanding{
-  background-color: #BFD5DA;
-}
-
-.h3home{
-  background-color: #BFD5DA;
-  display: block;
-  margin-left: 0;
-  margin-top: 2%;
-}
-
-.capstone{
-  flex:none;
-  height: 350px;
-  margin-bottom: 0;
-}
-
-.capstoneproject{
-  display:block;
-
-  margin-left: 0;
-  padding-bottom: 0;
-}
-
-.homedescription{
-  padding-left: 10%;
-  padding-right: 10%;
-
-}
-
-.commoncoreproject{
-  display:block;
-  padding-bottom: 0;
-}
-
-.commoncore{
-  height:375px;
-}
-
-.hero{
-  display:block;
-
-}
-
-.hero-about{
-  padding-bottom: 10%;
-  background-color:#BFD5DA;
-  margin-bottom: 10%;
-  margin-top: 0;
-  padding-top: 5%;
-  display: block;
-}
-
-.heroleft-about{
-  padding-left:0%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.heroright-about{
-  margin-left: 35%;
-}
-
-img.headshot-about{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.ccfpreview{
-
-}
-
-.spacer2{
-
-}
-
-/*CASESTUDY MOBILE*/
-.centerimg{
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.project-hero{
-  background-color: #BFD5DA;
-  display: block;
-  width: 100%;
-  height: 50%;
-}
-
-.ccfdesktop{
-  padding-left: 10%;
-  padding-bottom: 5%;
-}
-
-.project-right-mobile{
-  display: block;
-  width: 100%;
-}
-.project-right{
-  display:none;
-}
-
-.role{
-  margin-left: 5%;
-}
-.deliverables{
-  margin-right: 5%;
-}
-
-.tools{
-  margin-left: 5%;
-}
-
-.casestudysection{
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 10%;
-  margin-top: 10%;
-}
-
-.onesixbold{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.most{
-  display:block;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.percent{
-  display:block;
-  width: 80%;
-  padding:0;
-}
-
-.squaretext{
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.competition{
-  text-align: left;
-  padding-top: 5%;
-  width:80%;
-  display:block;
-}
-
-.pinterest{
-  padding-bottom: 10%;
-}
-
-.googlec{
-  padding-bottom: 10%;
-  line-height: 3rem;
-}
-
-.squaretextblue{
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.personas{
-  display:block;
-}
-
-.courtney{
-  padding-top: 10%;
-}
-
-.alana{
-  padding-left: 0;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-h6{
-  line-height: 3rem;
-  width: 80%;
-}
-.comps{
-  font-size: 2rem;
-  line-height: 3rem;
-}
-.buttoncasestudy{
-  margin-left: 10%;
-}
-
-.audience{
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15%;
-  width: 80%;
-}
-
-.priorities{
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15%;
-  width:80%
-}
-
-.userflows{
-  padding-top: 5%;
-  margin-left: 0;
-}
-
-.ufsketch{
-  width: 100%;
-}
-
-.ufvector{
-  width: 100%;
-}
-
-.whatchange{
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10%;
-  padding-top: 10%;
-}
-
-.brainstormname{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-/*FOOTERMOBILE*/
-
-.footerline{
-  margin-top: 5%;
-}
-
-.footertext{
-  padding-top: 2%;
-  font-size: 1.6rem;
-}
-
-.socialicon{
-  padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 2%;
-}
-
-}
-
-/*IPAD LANDSCAPE*/
+/****************************IPAD LANDSCAPE**************************/
 @media screen and (max-width: 1024px) {
 
   .container{
-    background-size: 990px;
+    background-size: 1024px;
   }
-
 
 
   .navbar{
@@ -1172,6 +812,7 @@ h6{
 
 .logotxt{
   padding: 2%;
+  width: 80%;
 }
 
   .landinglogo{
@@ -1183,8 +824,9 @@ h6{
 }
 
 
-/*IPAD PORTRAIT*/
-@media screen and (max-width: 768px) {
+/****************************IPAD PORTRAIT****************************/
+@media screen and (max-width: 990px) {
+
 
   img.headshot {
   display: none;
@@ -1274,7 +916,7 @@ p{
   background-color:#BFD5DA;
   margin-left: auto;
   margin-right: auto;
-  height:400px;
+  height:375px;
   margin-top: 0;
   padding-top: 5%;
   padding-left: 10%;
@@ -1358,7 +1000,7 @@ img.headshot-about{
 
 }
 
-/*CASESTUDY IPAD*/
+/*****************************CASESTUDY IPAD*****************************/
 .centerimg{
   width: 100%;
   margin-left: 0;
@@ -1534,7 +1176,7 @@ b{
   padding-left: 30%;
 }
 
-/*FOOTERMOBILE*/
+/*FOOTERIPAD*/
 
 .footerline{
   margin-top: 5%;
@@ -1552,5 +1194,369 @@ b{
   padding-bottom: 2%;
 }
 
+}
+
+/*****************************MOBILE*****************************/
+@media screen and (max-width: 575px) {
+
+  img.headshot {
+    display: none;
+  }
+
+.container{
+  width: 100%;
+  background-image: none;
+  margin: 0 auto;
+}
+
+.container2{
+  width: 100%;
+  background-image: none;
+  margin: 0 auto;
+}
+
+h1{
+  margin-left: 10%;
+}
+
+h2{
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.button{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.button-connect{
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logotxt{
+  height: 85%;
+  width: 80%;
+  display:none;
+
+}
+
+.landinglogo{
+  padding-left: 2%;
+}
+
+.cdlogo {
+ margin-left: none;
+ padding-left: none;
+
+}
+
+.header-homepage{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  padding: 2rem;
+
+}
+
+.mobilename{
+  background-color:#BFD5DA;
+  display: block;
+  font-size: 4rem;
+  font-family: 'caviar_dreamsbold';
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+  color: #07404C;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.heroleft{
+  background-color:#BFD5DA;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-decoration: none;
+}
+
+.hero{
+  padding-left: 0;
+  display:block;
+}
+
+.mobilelanding{
+  background-color: #BFD5DA;
+}
+
+.h3home{
+  background-color: #BFD5DA;
+  display: block;
+  margin-left: 0;
+  margin-top: 2%;
+}
+
+.capstone{
+  flex:none;
+  height: 350px;
+  margin-bottom: 0;
+}
+
+.capstoneproject{
+  display:block;
+
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
+.homedescription{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.commoncoreproject{
+  display:block;
+  padding-bottom: 0;
+}
+
+.commoncore{
+  height:375px;
+}
+
+.hero{
+  display:block;
+
+}
+
+.hero-about{
+  padding-bottom: 10%;
+  background-color:#BFD5DA;
+  margin-bottom: 10%;
+  margin-top: 0;
+  padding-top: 5%;
+  display: block;
+}
+
+.heroleft-about{
+  padding-left:0%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.heroright-about{
+  margin-left: 35%;
+
+}
+
+img.headshot-about{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ccfpreview{
+
+}
+
+.spacer2{
+
+}
+
+/*****************************CASESTUDY MOBILE*****************************/
+.centerimg{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.project-hero{
+  background-color: #BFD5DA;
+  display: block;
+  width: 100%;
+}
+
+.ccfdesktop{
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.project-right-mobile{
+  display: block;
+  width: 100%;
+}
+.project-right{
+  display:none;
+}
+
+.role{
+  margin-left: 5%;
+}
+.deliverables{
+  margin-right: 5%;
+}
+
+.tools{
+  margin-left: 5%;
+}
+
+.casestudysection{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
+  margin-top: 10%;
+}
+
+.onesixbold{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.most{
+  display:block;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.percent{
+  display:block;
+  width: 80%;
+  padding:0;
+}
+
+.eight{
+  margin-top: 10%;
+}
+
+.squaretext{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competition{
+  text-align: left;
+  padding-top: 5%;
+  width:80%;
+  display:block;
+}
+
+.pinterest{
+  padding-bottom: 10%;
+}
+
+.googlec{
+  padding-bottom: 10%;
+  line-height: 3rem;
+}
+
+.squaretextblue{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personas{
+  display:block;
+}
+
+.courtney{
+  padding-top: 10%;
+}
+
+.alana{
+  padding-left: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+h6{
+  line-height: 3rem;
+  width: 80%;
+}
+.comps{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.buttoncasestudy{
+  margin-left: 10%;
+}
+
+.audience{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width: 80%;
+}
+
+.priorities{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  width:80%
+}
+
+.userflows{
+  padding-top: 5%;
+  margin-left: 0;
+}
+
+.ufsketch{
+  width: 100%;
+}
+
+.ufvector{
+  width: 100%;
+}
+
+.whatchange{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.brainstormname{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*FOOTERMOBILE*/
+
+.footerline{
+  margin-top: 5%;
+}
+
+.footertext{
+  padding-top: 2%;
+  font-size: 1.6rem;
+}
+
+.socialicon{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
 
 }
