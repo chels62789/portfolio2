@@ -116,7 +116,7 @@ body {
 }
 
 .navbar {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 /**********************HERO************************/
@@ -485,18 +485,21 @@ padding-left: 4%;
 .eight{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
+  background-size: contain;
   padding-right: 5%;
 }
 
 .sixtysix{
   background-image: url("../img/bluecircle.png");
   background-repeat: no-repeat;
+  background-size: contain;
   padding-right: 5%;
 }
 
 .eightythree{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
@@ -534,22 +537,27 @@ padding-left: 4%;
   margin-bottom: 5%;
   text-align: left;
   width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 
 .comps{
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-family: 'Raleway';
   line-height: 3rem;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
+h6{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
 b.comps{
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 3rem;
   font-weight: bolder;
 }
@@ -869,6 +877,7 @@ p{
   margin-top: 10%;
   margin-left: 10%;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .button-connect{
@@ -891,6 +900,8 @@ p{
 .cdlogo {
  margin-left: none;
  padding-left: none;
+ margin-bottom: 0;
+ margin-bottom: 0;
 
 }
 
@@ -899,8 +910,16 @@ p{
   margin: 0;
 }
 
+.header-other{
+  padding-top: 1%;
+  margin-bottom: 1%;
+
+}
+
 .navbar {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
@@ -1006,7 +1025,7 @@ img.headshot-about{
 
 }
 
-/*****************************CASESTUDY IPAD*****************************/
+/*****************************CASESTUDY IPAD (PORTRAIT)*****************************/
 .centerimg{
   width: 100%;
   margin-left: 0;
@@ -1022,7 +1041,7 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 1000px;
+  height: 110%;
   margin-top: 0px;
 }
 
@@ -1416,11 +1435,19 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
+  height: 90%;
 }
 
 .ccfdesktop{
   padding-left: 10%;
   padding-bottom: 5%;
+}
+
+.ccf-title{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .project-right-mobile{
@@ -1429,6 +1456,10 @@ img.headshot-about{
 }
 .project-right{
   display:none;
+}
+
+.project-left{
+  padding:0;
 }
 
 .role{
@@ -1454,7 +1485,6 @@ img.headshot-about{
   margin-right: auto;
   width: 80%;
   font-size: 2rem;
-  line-height: 4rem;
 }
 
 .most{
@@ -1597,6 +1627,19 @@ h6{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 2%;
+}
+
+}
+
+
+/*****************************MOBILE SMALL*****************************/
+@media screen and (max-width: 375px) {
+
+.project-hero{
+  background-color: #BFD5DA;
+  display: block;
+  width: 100%;
+  height: 75%;
 }
 
 }
