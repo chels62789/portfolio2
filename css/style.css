@@ -32,6 +32,7 @@ html {
   font-family: 'Raleway', sans-serif;
   font-size: 1vh;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 
 }
 
@@ -100,11 +101,12 @@ body {
 
 .navigationbar {
   flex: 1;
-  margin-right: 10%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 .navbar{
-  float: right;
+  float: left;
   top: 0;
   text-decoration: none;
 }
@@ -112,7 +114,11 @@ body {
 .navbar {
   color: #07404C;
   font-family: 'caviar_dreamsbold';
-  font-size: 2vh;
+  font-size: 2.5vh;
+}
+
+.navbar:hover{
+  color: #000000;
 }
 
 .navbar {
@@ -137,6 +143,10 @@ body {
   flex: 1;
   margin-left: 30rem;
   margin-top: 10%;
+}
+
+.herorightipad{
+  display: none;
 }
 
 img.headshot {
@@ -174,7 +184,7 @@ img.headshot-about{
 .project-hero{
   color: #07404C; /*dark green*/
   display:flex;
-  margin-top: 5%;
+  margin-top: 0%;
 }
 
 .ccf-title{
@@ -188,7 +198,7 @@ img.headshot-about{
 
 .project-right{
   flex:1;
-  padding-top: 3%;
+
   width: 100%;
 }
 
@@ -268,6 +278,18 @@ h5{
   line-height: 3rem;
 }
 
+h6{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h7{
+  font-family: 'caviar_dreamsbold';
+  line-height: 6rem;
+  font-size: 5rem;
+}
+
+
 
 .h3home{
   display: block;
@@ -294,6 +316,23 @@ h5{
   text-decoration: none;
 }
 
+.casestudy-connect{
+  background-color: #EAA166;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #AFB4B4;
+  color: #07404C;
+  font-family: 'caviar_dreamsbold';
+  font-size: 2rem;
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-top: 25%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
 
  .email{
    text-decoration: none;
@@ -313,6 +352,21 @@ h5{
   text-align: center;
 }
 
+.button:hover{
+    color: none;
+     background: #EAC6A8;
+}
+
+.button-connect:hover{
+  color: none;
+   background: #EAC6A8;
+}
+
+.buttoncasestudy:hover{
+  color: none;
+   background: #EAC6A8;
+}
+
 .spacer{
   height: 5%;
 }
@@ -325,25 +379,43 @@ h5{
 /*************************** HOMEPAGE*************************/
 
 /* CAPSTONE PROJECT*/
+
+.projectline{
+background-color: #E6ECED;
+height: 5px;
+
+}
+
+.projectlineimg{
+background-color: #E6ECED;
+height: 5px;
+}
+
+.projectlinebottom1{
+background-color: #E6ECED;
+height: 5px;
+margin-top: 75px;
+margin-bottom: 0;
+}
+
 .capstoneproject {
   color: #07404C;
   display: flex;
   margin-bottom: 3%;
-  margin-top: 15%;
+  margin-top: 5%;
   width: 100%;
 }
 
 .capstone{
-  background-color: #FDEACE;
+  /*background-color: #FDEACE;*/
   flex: 1;
 
 }
 
 .capimage{
   flex: 1;
-  width: 100%;
-
 }
+
 
 .homedescription {
   margin-left: auto;
@@ -352,17 +424,19 @@ h5{
   padding-right: 25%;
 }
 
+img.tvpreview{
+  width:50%;
+}
+
 /* COMMONCORE PROJECT*/
 .commoncoreproject{
   color: #07404C;
   display:flex;
-  margin-top: 10%;
-  margin-bottom: 10%;
 
 }
 
 .commoncore{
-  background-color: #FDEACE;
+  /*background-color: #BFD5DA;*/
   flex: 1;
 
 }
@@ -371,6 +445,7 @@ h5{
   flex: 1;
   width: 100%;
 }
+
 
 img.ccfpreview{
   width: 100%;
@@ -391,6 +466,11 @@ img.ccfpreview{
 
 
 /*************************** COMMON CORE FINDER *************************/
+
+.tvtellhero2{
+  width: 50%;
+  margin-top: 3%;
+}
 
 /**** PROJECT INTRO ****/
 .introduction{
@@ -547,10 +627,6 @@ padding-left: 4%;
   margin-bottom: 5%;
 }
 
-h6{
-  font-size: 2rem;
-  line-height: 3rem;
-}
 
 b.comps{
   text-align: left;
@@ -702,11 +778,47 @@ li{
   margin-top: 5%;
 }
 
+.tvcenterimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width:50%;
+  padding-bottom: 5%;
+}
+
+.tvcenterimg2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width:100%;
+  padding-bottom: 5%;
+}
+
+.tvcenterimg3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width:50%;
+  padding-bottom: 5%;
+}
+
+.tvbranding{
+  width:25%;
+}
+
 .centerimgsmaller{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  margin-bottom:5%;
+}
+
+.usertest{
+  margin-top: 500px;
 }
 
 /*
@@ -741,24 +853,37 @@ ul{
 
 .conclusiontxt{
   padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.back{
+  text-align: center;
+  font-family: 'caviar_dreamsregular';
+  font-size: 20rem;
   padding-bottom: 5%;
 }
 
+img.backtotop{
+  width: 10rem;
+  height: 10rem;
+}
 
 
 
 /***************************  FOOTER ***************************************/
 
 .footerline{
-  background-color: #07404C;
+  /*background-color: #07404C;*/
   height: 3px;
 }
 
 .footer{
+  background-color: #E6ECED;
   color: #07404C;
   display: inline-block;
   width: 100%;
 }
+
 
 .footertext{
   flex: 1;
@@ -773,12 +898,13 @@ ul{
   display: flex;
   padding-left: 25%;
   padding-right: 25%;
+  margin-bottom: 1%;
 }
 
 .social{
   margin: 0 auto;
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 
 }
 
@@ -831,6 +957,9 @@ img.insta{
     margin: 1%;
   }
 
+h7{
+  display:none;
+}
 
 }
 
@@ -840,7 +969,27 @@ img.insta{
 
 
   img.headshot {
-  display: none;
+  display: block;
+  width: 25%;
+  }
+
+  .herorightipad{
+    display: flex;
+      background-color: #BFD5DA;
+  }
+
+  .heroright{
+    display: none;
+  }
+
+  .heroleft{
+    background-color: none;
+  }
+
+  .headshotipad{
+    padding-top: 5%;
+    width:25%;
+    margin-left: 10%;
   }
 
 .container{
@@ -877,10 +1026,14 @@ p{
   margin-bottom: 50px;
 }
 
+
+
 .button-connect{
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 
 .logotxt{
@@ -975,6 +1128,14 @@ p{
   padding-bottom: 0;
 }
 
+.projectlinebottom{
+  display: none;
+}
+
+.projectlineimg{
+  display: none;
+}
+
 .homedescription{
   padding-left: 10%;
   padding-right: 10%;
@@ -1023,6 +1184,9 @@ img.headshot-about{
 }
 
 /*****************************CASESTUDY IPAD (PORTRAIT max 990)*****************************/
+
+
+
 .centerimg{
   width: 100%;
   margin-left: 0;
@@ -1038,22 +1202,26 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 125%;
+  height: 80%;
   margin-top: 0px;
 }
 
 .ccfdesktop{
-  padding-left: 10%;
-  padding-bottom: 5%;
+  width: 50%;
+  padding-bottom: 3%;
 }
 
 .project-right-mobile{
-  display: block;
+  display: inline;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3%;
   width: 100%;
 }
 .project-right{
   display:none;
 }
+
 
 .role{
   margin-left: 5%;
@@ -1135,6 +1303,7 @@ img.headshot-about{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
 }
 
 .personas{
@@ -1218,6 +1387,14 @@ b{
 
 .heroleft-about{
   padding-left: 30%;
+}
+
+.casestudy-connect{
+  margin-left: 10%;
+}
+
+h6{
+  margin-left: 10%;
 }
 
 /*FOOTERIPAD*/
@@ -1313,9 +1490,15 @@ h6{
   margin: 0;
 }
 
+
+.navigationbar{
+  width: 50%;
+}
+
 .navbar {
   display: flex;
   padding: 2rem;
+  font-size: 2rem;
 
 }
 
@@ -1326,7 +1509,6 @@ h6{
   font-family: 'caviar_dreamsbold';
   margin-right: auto;
   margin-left: auto;
-  margin-top: 2%;
   color: #07404C;
   padding-top: 10%;
   padding-left: 10%;
@@ -1430,12 +1612,34 @@ img.headshot-about{
 
 }
 
-/*****************************CASESTUDY MOBILE*****************************/
+/*****************************MOBILE CASE STUDY CASESTUDY MOBILE*****************************/
 .centerimg{
   width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
+
+.tvcenterimg2{
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 5%;
+  width:100%;
+  padding-bottom: 5%;
+}
+
+.tvcenterimg{
+  width: 100%;
+}
+
+.tvcenterimg3{
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 
 .centerimgsmaller{
   width: 60%;
@@ -1446,12 +1650,12 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 90%;
+  height: 115%;
 }
 
 .ccfdesktop{
-  padding-left: 10%;
   padding-bottom: 5%;
+  width: 200%;
 }
 
 .ccf-title{
@@ -1463,8 +1667,10 @@ img.headshot-about{
 
 .project-right-mobile{
   display: block;
-  width: 100%;
+  width: 50%;
+  margin-left: 0;
 }
+
 .project-right{
   display:none;
 }
@@ -1551,6 +1757,7 @@ b.comps{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15%;
 }
 
 .personas{
@@ -1650,7 +1857,7 @@ h6{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 75%;
+  height: 80%;
 }
 
 }
