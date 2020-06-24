@@ -381,9 +381,10 @@ h7{
 
 /* CAPSTONE PROJECT*/
 
-.projectline{
-background-color: #E6ECED;
+hr{
+border: 5px solid #E6ECED;
 height: 5px;
+stroke: none;
 
 }
 
