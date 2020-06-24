@@ -119,6 +119,7 @@ body {
 
 .navbar:hover{
   color: #000000;
+  text-decoration: underline;
 }
 
 .navbar {
@@ -892,6 +893,14 @@ ul{
   padding-bottom: 5%;
 }
 
+.down{
+  color: #07404C;
+  text-align: center;
+  font-family: 'caviar_dreamsbold';
+  font-size: 20rem;
+  padding-bottom: 5%;
+}
+
 img.backtotop{
   width: 10rem;
   height: 10rem;
@@ -906,7 +915,7 @@ img.backtotop{
   height: 3px;
 }
 
-.footer{
+footer{
   background-color: #E6ECED;
   color: #07404C;
   display: inline-block;
