@@ -983,7 +983,7 @@ img.insta{
 
 
   .navbar{
-    padding-left: 0;
+    padding-right: 0;
   }
 
 .logotxt{
@@ -1084,6 +1084,7 @@ p{
 }
 
 .landinglogo{
+  flex:.5;
   padding-left: 2%;
 }
 
@@ -1110,7 +1111,7 @@ p{
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .mobilename{
@@ -1539,6 +1540,7 @@ h6{
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right: 0;
   font-size: 2rem;
 
 }
