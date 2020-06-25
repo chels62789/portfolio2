@@ -1517,6 +1517,7 @@ h6{
 }
 
 .landinglogo{
+  flex:.3;
   padding-left: 2%;
 }
 
