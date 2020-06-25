@@ -1694,10 +1694,11 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 115%;
+  height: 100%;
 }
 
 .tvtellhero2{
+  margin-left: 50%;
   width:100%;
 }
 
