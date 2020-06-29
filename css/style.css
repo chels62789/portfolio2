@@ -179,6 +179,10 @@ img.headshot-about{
 
 /*HERO PROJECT*/
 
+.logomobile{
+  display: none;
+}
+
 .project-right-mobile{
   display: none;
 }
@@ -1029,7 +1033,11 @@ h7{
     padding-top: 5%;
     width:25%;
     height: 25%;
-    margin-left: 10%;
+
+  }
+
+  .down{
+    font-size: 10rem;
   }
 
 .container{
@@ -1478,6 +1486,7 @@ h6{
 }
 
 h1{
+  padding-top: 10%;
   margin-left: 10%;
 }
 
@@ -1582,6 +1591,10 @@ h6{
   background-color: #BFD5DA;
 }
 
+.down{
+  font-size: 5rem;
+}
+
 .h3home{
   background-color: #BFD5DA;
   display: block;
@@ -1589,15 +1602,22 @@ h6{
   margin-top: 2%;
 }
 
+.logomobile{
+  width: 100%;
+}
+
+.ccfpreview{
+  display: none;
+}
+
 .capstone{
   flex:none;
   height: 350px;
-  margin-bottom: 0;
+  margin-bottom: 15rem;
 }
 
 .capstoneproject{
   display:block;
-
   margin-left: 0;
   padding-bottom: 0;
 }
@@ -1610,7 +1630,7 @@ h6{
 
 .commoncoreproject{
   display:block;
-  padding-bottom: 0;
+  padding-bottom: 5rem;
 }
 
 .commoncore{
@@ -1643,9 +1663,10 @@ h6{
 }
 
 img.headshot-about{
-  text-align: center;
+  display:none;
+  /*text-align: center;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 .ccfpreview{
