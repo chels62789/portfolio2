@@ -555,12 +555,20 @@ img.ccfpreview{
 }
 
 .mostleft{
-
-
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 6.5rem;
+  padding-bottom: 2rem;
 }
 
 .mostright{
-padding-left: 4%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 6.5rem;
+  padding-bottom: 2rem;
+  padding-left: 4%;
 }
 
 .percent{
