@@ -989,7 +989,9 @@ img.insta{
 
 
   .navbar{
-    padding-right: 0;
+    padding-right: 1rem;
+    padding-left: 0;
+
   }
 
 .logotxt{
@@ -1000,10 +1002,20 @@ img.insta{
   .landinglogo{
     display: flex;
     margin: 1%;
+    padding-left: 10%;
+    margin-right: 0;
   }
 
 h7{
   display:none;
+}
+
+.most{
+  display: block
+}
+
+.priorities{
+  margin-left: 20%;
 }
 
 }
@@ -1097,6 +1109,7 @@ p{
 .landinglogo{
   flex:.5;
   padding-left: 2%;
+  padding-bottom: 1%;
 }
 
 .cdlogo {
@@ -1120,9 +1133,10 @@ p{
 
 .navbar {
   display: flex;
-  margin-top: 0;
+  margin-top: 2%;
   margin-bottom: 0;
   padding-right: 0;
+  margin-left: 10%;
 }
 
 .mobilename{
@@ -1277,7 +1291,8 @@ img.headshot-about{
 
 .ccfdesktop{
   width: 50%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .project-right-mobile{
@@ -1608,6 +1623,7 @@ h6{
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-right: 0;
+  margin-left: 15%;
   font-size: 2rem;
 
 }
@@ -1741,10 +1757,6 @@ img.headshot-about{
   margin-right: 0;
 }
 
-.tvtellhero2{
-  margin-left: 50%;
-  width:100%;
-}
 
 .tvcenterimg2{
   display: block;
@@ -1783,11 +1795,11 @@ img.headshot-about{
 .tvtellhero2{
   margin-left: 50%;
   width:100%;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 }
 
 .ccfdesktop{
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   width: 200%;
 }
 
@@ -1802,6 +1814,7 @@ img.headshot-about{
   display: block;
   width: 50%;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .project-right{
