@@ -920,10 +920,6 @@ img.backtotop{
 
 /***************************  FOOTER ***************************************/
 
-.footerline{
-  /*background-color: #07404C;*/
-  height: 3px;
-}
 
 footer{
   background-color: #E6ECED;
@@ -935,7 +931,7 @@ footer{
 
 .footertext{
   flex: 1;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 1%;
   font-size: 2rem;
   text-align: center;
@@ -1503,8 +1499,8 @@ h6{
 
 .footertext{
   padding-bottom: 0;
-  padding-top: 2%;
-  font-size: 1.6rem;
+  padding-top: 1%;
+  font-size: 2rem;
 
 }
 
@@ -1857,6 +1853,11 @@ img.headshot-about{
 
 }
 
+.threelist{
+  width:100%;
+  background-image: none;
+}
+
 .squaretext{
   width:80%;
   margin-left: auto;
@@ -1972,9 +1973,7 @@ h6{
 
 /*FOOTERMOBILE*/
 
-.footerline{
-  margin-top: 5%;
-}
+
 
 .footertext{
   padding-top: 1%;
