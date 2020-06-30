@@ -172,7 +172,7 @@ img.headshot {
 }
 
 img.headshot-about{
-  margin-left: 15%;
+  margin-left: 0%;
   margin-top: 5%;
   width:30%;
 }
@@ -571,19 +571,19 @@ padding-left: 4%;
 .eight{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
-  padding-right: 5%;
+  margin-right: 5%;
 }
 
 .sixtysix{
   background-image: url("../img/bluecircle.png");
   background-repeat: no-repeat;
-  padding-right: 5%;
+  margin-right: 5%;
 }
 
 .eightythree{
   background-image: url("../img/crmcircle.png");
   background-repeat: no-repeat;
-  margin-bottom: 3%;
+
 }
 
 
@@ -1066,7 +1066,7 @@ h2{
 p{
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .button{
@@ -1270,7 +1270,7 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 80%;
+  height: 105%;
   margin-top: 0px;
 }
 
@@ -1282,20 +1282,40 @@ img.headshot-about{
 .project-right-mobile{
   display: inline;
   margin-left: 25%;
-  margin-right: 25%;
   margin-top: 3%;
   width: 100%;
 }
 .project-right{
-  display:none;
+  display: none;
+}
+
+.tvtellhero2{
+  width: 25%;
+  margin-left: 10%;
+}
+
+.ccf-title{
+  padding-top: 0;
+}
+.introduction{
+  padding-top: 10%;
+}
+
+h2{
+  padding-top: 5%;
 }
 
 
 .role{
-  margin-left: 5%;
+  margin-left: 15%;
 }
 .deliverables{
   margin-right: 5%;
+}
+
+.deliv-description{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 .tools{
@@ -1326,21 +1346,25 @@ img.headshot-about{
 }
 
 .percent{
-  display:block;
-  width: 80%;
-  padding:0;
+  display:flex;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .eight{
   background-size: contain;
+  flex: 1;
 }
 
 .sixtysix{
   background-size: contain;
+  flex: 1;
 }
 
 .eightythree{
   background-size: contain;
+  flex: 1;
 }
 
 .squaretext{
@@ -1467,8 +1491,10 @@ h6{
 
 /*FOOTERIPAD*/
 
-.footerline{
-  margin-top: 5%;
+
+
+.footer{
+  background-color: #E6ECED;
 }
 
 .footertext{
@@ -1705,6 +1731,11 @@ img.headshot-about{
   margin-right: 0;
 }
 
+.tvtellhero2{
+  margin-left: 50%;
+  width:100%;
+}
+
 .tvcenterimg2{
   display: block;
   padding-left: 10px;
@@ -1742,6 +1773,7 @@ img.headshot-about{
 .tvtellhero2{
   margin-left: 50%;
   width:100%;
+  padding-bottom: 10%;
 }
 
 .ccfdesktop{
@@ -1809,12 +1841,26 @@ img.headshot-about{
 
 .eight{
   margin-top: 10%;
+  background-image: none;
+}
+
+.sixtysix{
+  background-image: none;
+}
+
+.eightythree{
+  background-image: none;
+
 }
 
 .squaretext{
   width:80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.greybox{
+  margin: 45px;
 }
 
 .competition{
@@ -1949,7 +1995,15 @@ h6{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 80%;
+  height: 90%;
+}
+
+.abouttext{
+  padding-bottom: 20%;
+}
+
+.tvtellhero2{
+  margin-top: 10%;
 }
 
 }
