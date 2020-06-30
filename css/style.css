@@ -226,12 +226,16 @@ img.headshot-about{
 }
 
 .threelist{
+  background-image: url("../img/crmcircle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   flex: 1;
   font-family: 'Raleway';
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 4rem;
   margin-bottom: 5%;
   padding-bottom: 0%;
+  padding-right: 5%;
   width: 20rem;
 }
 
