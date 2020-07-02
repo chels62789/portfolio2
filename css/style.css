@@ -237,7 +237,7 @@ img.headshot-about{
 .twolist{
   flex: 1;
   font-family: 'Raleway';
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 3rem;
   margin-bottom: 5%;
   padding-bottom: 0%;
@@ -504,7 +504,7 @@ img.ccfpreview{
 /*************************** ABOUT*************************/
 
 .abouttext{
-  padding-bottom: 12%;
+  padding-bottom: 0;
 }
 
 .lastp{
@@ -1012,11 +1012,10 @@ img.backtotop{
   height: 10rem;
 }
 
-.down{
-  animation-name: bounce;
-}
+
 
 .totop{
+  padding-top: 1%;
   text-decoration:none;
   color: #000000;
 }
@@ -1238,7 +1237,7 @@ p{
 
 .landinglogo{
   flex:.5;
-  padding-left: 2%;
+  padding-left: 9%;
   padding-bottom: 1%;
 }
 
@@ -1415,14 +1414,14 @@ img.headshot-about{
   background-color: #BFD5DA;
   display: flex;
   width: 100%;
-  height: 80%;
+  height: 60%;
   margin-top: 0px;
 }
 
 .ccfdesktop{
-  width: 50%;
+  width: 100%;
   padding-bottom: 5%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 /*
 .project-right-mobile{
@@ -1445,6 +1444,18 @@ img.headshot-about{
   margin-right: 10%;
   margin-top: 1%;
 }
+
+.project-leftccf{
+  padding-top: 10%;
+  padding-left: 0;
+}
+
+.project-rightccf{
+  margin-left: 0;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
 .tvtellhero2{
   width: 80%;
   margin-left: 0%;
@@ -1462,6 +1473,7 @@ img.headshot-about{
   padding-top: 0;
   margin-left: 20%;
   margin-bottom: 10%;
+  padding-right: 10%;
 }
 
 .introduction{
@@ -1474,19 +1486,22 @@ h2{
 
 
 .role{
-  margin-left: 15%;
+  padding: 1%;
+  margin-left:12%;
 }
 .deliverables{
-  margin-right: 5%;
+  padding: 0%;
+  margin-right: 10%;
 }
 
 .deliv-description{
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .tools{
-  margin-left: 5%;
+  padding:0%;
 }
 
 .twolist{
@@ -1518,7 +1533,7 @@ h2{
 
 .percent{
   display:flex;
-  width: 80%;
+  width: 100%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -1646,7 +1661,17 @@ b{
   padding: 5%;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+}
+
+.keyword{
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.names{
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .addmargin{
@@ -1665,8 +1690,9 @@ b{
 
 .update{
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 0;
 }
+
 
 .casestudy-connect{
   margin-left: 20%;
@@ -1709,6 +1735,30 @@ h6{
 /*********************** IPAD 768 ******************/
 @media screen and (max-width: 768px) {
 
+
+
+li{
+  padding-bottom: 0;
+}
+
+.hero-about{
+  margin-bottom: 5%;
+  padding-bottom: 10%;
+}
+
+
+
+.heroleft-about{
+  padding-left: 6%;
+    margin-top: 0%;
+}
+
+.headshot-about{
+  padding-left: 22%;
+  width: 70%;
+}
+
+
   .footertext{
     padding-left: 20%;
   }
@@ -1721,6 +1771,7 @@ h6{
 
   .navbar{
     padding-top: 7%;
+    padding-left: 4%;
   }
 
   h2{
@@ -1782,19 +1833,35 @@ p{
 }
 
 .project-hero{
-  height: 90%;
+  display: flex;
+  height: 50%;
+  width: 100%;
 }
 
 .project-right{
   margin-top: 2%;
 }
 
-.tvtellhero2{
-width: 80%;
+.project-rightccf{
+  margin-right: 0;
+
+}
+.project-leftccf{
+  margin-left: 5%;
+  margin-right: 0;
+
+}
+
+.ccfdesktop{
+  padding-right: 10%;
 }
 
 .project-left{
   padding-top: 30%;
+}
+
+.tvtellhero2{
+width: 80%;
 }
 
 .ccf-title{
@@ -1802,6 +1869,10 @@ width: 80%;
 }
 .ccf-text{
   margin-left: 10%;
+}
+
+.onesixbold{
+  width: 75%;
 }
 
 .percent{
@@ -1867,27 +1938,36 @@ width: 80%;
 }
 
 .whatchange{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .brainstormname{
-  margin-left: 10%;
-
+  padding-top: 0;
+  margin-left: 0%;
+  width: 60%;
 }
+
 
 .keyword{
   width: 50rem;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-top: 10%;
-  margin-left: 0;
+  margin-right: 0%;
+  margin-left: 10%;
 }
 
 .names{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 10%;
+    padding-right: 0%;
+    margin-right: 0%;
     margin-left: 60%;
 }
+
+
 
 .addmargin{
   margin-left: 10%;
