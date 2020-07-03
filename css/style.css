@@ -188,7 +188,17 @@ img.headshot-about{
 .project-right-mobile{
   display: none;
 }
+
+.project-right-mobileccf{
+  display: none;
+}
 .project-hero{
+  color: #07404C; /*dark green*/
+  display:flex;
+  margin-top: 0%;
+}
+
+.project-heroccf{
   color: #07404C; /*dark green*/
   display:flex;
   margin-top: 0%;
@@ -197,16 +207,25 @@ img.headshot-about{
 .ccf-title{
   padding-bottom: 5%;
   margin-top: 0%;
+  padding-top: 15%;
 }
 
 .ccf-text{
   padding-bottom: 5%;
   margin-top: 0%;
+
+}
+
+.tv-text{
+  padding-bottom: 5%;
+  margin-top: 0%;
+  padding-right: 0;
 }
 
 .project-left{
-  flex:1.2;
-  padding-left: 10%;
+  flex:1;
+  margin-top: 5%;
+  padding-left: 11%;
 }
 
 .project-leftccf{
@@ -216,8 +235,14 @@ img.headshot-about{
 
 .project-right{
   flex:1;
-  width: 100%;
-  margin-left: 15%;
+  margin-right: 21%;
+  margin-top: 1%;
+}
+
+.tvtellhero2{
+  width: 150%;
+  padding-left: 10%;
+
 }
 
 .project-rightccf{
@@ -260,6 +285,24 @@ img.headshot-about{
   padding-left: 5%;
   padding-bottom: 5%;
 }
+
+.threelistccf{
+  /*background-image: url("../img/crmcircle.png")
+  background-repeat: no-repeat;
+  background-size: contain;*/
+  background-color: #FDEACE;
+  border-radius: 300px;
+  flex: 1;
+  font-family: 'Raleway';
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
 
 p{
   font-family: 'Raleway';
@@ -515,10 +558,7 @@ img.ccfpreview{
 
 /*************************** COMMON CORE FINDER *************************/
 
-.tvtellhero2{
-  width: 50%;
-  margin-top: 3%;
-}
+
 
 /**** PROJECT INTRO ****/
 .introduction{
@@ -556,6 +596,7 @@ img.ccfpreview{
 .deliv{
   font-size: 3.125rem;
   line-height: 4rem;
+  margin-left: 0;
 }
 
 .delivs{
@@ -1417,6 +1458,13 @@ img.headshot-about{
   height: 60%;
   margin-top: 0px;
 }
+.project-heroccf{
+  background-color: #BFD5DA;
+  display: flex;
+  width: 100%;
+  height: 60%;
+  margin-top: 0px;
+}
 
 .ccfdesktop{
   width: 100%;
@@ -1448,6 +1496,7 @@ img.headshot-about{
 .project-leftccf{
   padding-top: 10%;
   padding-left: 0;
+  margin-left: 0;
 }
 
 .project-rightccf{
@@ -1487,7 +1536,7 @@ h2{
 
 .role{
   padding: 1%;
-  margin-left:12%;
+  margin-left:10%;
 }
 .deliverables{
   padding: 0%;
@@ -1763,15 +1812,19 @@ li{
     padding-left: 20%;
   }
 
+  .navigationbar{
+    width: 100%;
+  }
+
   .landinglogo {
-    padding-right: 20%;
+    padding-right: 8%;
     padding-left: 10%;
     margin-left: 0;
   }
 
   .navbar{
-    padding-top: 7%;
-    padding-left: 4%;
+    padding: 5%;
+    margin-left: 0;
   }
 
   h2{
@@ -1834,20 +1887,42 @@ p{
 
 .project-hero{
   display: flex;
-  height: 50%;
+  height: 56%;
   width: 100%;
 }
 
+.project-heroccf{
+  display: flex;
+  height: 43%;
+  width: 100%;
+}
+
+.project-right-mobile{
+  display: inline;
+  width: 50%;
+  padding-left: 7%;
+  padding-right: 6%;
+  padding-top: 2%;
+}
+
+.project-right-mobileccf{
+  background-color: #BFD5DA;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .project-right{
-  margin-top: 2%;
+  display: none;
 }
 
 .project-rightccf{
-  margin-right: 0;
-
+  display: none;
 }
 .project-leftccf{
-  margin-left: 5%;
+  flex: 100;
+  margin-left: 0%;
   margin-right: 0;
 
 }
@@ -1856,12 +1931,27 @@ p{
   padding-right: 10%;
 }
 
-.project-left{
-  padding-top: 30%;
+.ccfdesktopmobile{
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-bottom:0%;
 }
 
+.project-left{
+  padding-top: 15%;
+  margin-left: 0%;
+}
+
+
 .tvtellhero2{
-width: 80%;
+width: 100%;
+}
+
+.tv-text{
+  padding-right: 16%;
+  padding-bottom: 20%;
 }
 
 .ccf-title{
@@ -1869,6 +1959,10 @@ width: 80%;
 }
 .ccf-text{
   margin-left: 10%;
+}
+
+.introduction{
+  padding-top: 5%;
 }
 
 .onesixbold{
@@ -1885,9 +1979,20 @@ width: 80%;
 .threelist{
   margin-left: auto;
   margin-right: auto;
+  width:45%;
+  padding-top: 1%;
+  padding-bottom: 8%;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.threelistccf{
+  margin-left: auto;
+  margin-right: auto;
   width: 38%;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  padding-left: 8%;
 }
 
 .squaretext{
@@ -2261,6 +2366,13 @@ img.headshot-about{
   height: 100%;
 }
 
+.project-heroccf{
+  background-color: #BFD5DA;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .tvtellhero2{
   margin-left: 50%;
   width:100%;
@@ -2357,7 +2469,12 @@ img.headshot-about{
 
 .threelist{
   width:100%;
-  background-i: none;
+  background-image: none;
+}
+
+.threelistccf{
+  width:100%;
+  background-image: none;
 }
 
 .squaretext{
@@ -2518,7 +2635,21 @@ h6{
   background-color: #BFD5DA;
   display: block;
   width: 100%;
-  height: 90%;
+  height: 128%;
+}
+.project-heroccf{
+  background-color: #BFD5DA;
+  display: block;
+  width: 100%;
+  height: 45%;
+}
+
+.tvtellhero2{
+  padding-left: 0;
+}
+
+.tv-text{
+  padding-bottom: 10%;
 }
 
 .heroleft{
@@ -2537,12 +2668,28 @@ h6{
   padding-bottom: 20%;
 }
 
+.ccfdesktopmobile{
+  padding-top: 10%;
+}
+
 .tvtellhero2{
-  margin-top: 10%;
+  margin-left: 0;
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding-bottom: 10%;
+}
+
+.project-right-mobile{
+  width: 90%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .landinglogo{
   padding-right: 0;
+  padding-left: 5%;
 }
 
 .navbar{
@@ -2563,6 +2710,24 @@ h6{
 
 .capstone{
   margin-bottom: 10rem;
+}
+
+.project-left{
+  margin-top:0;
+}
+
+.keyword{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 10%;
+}
+
+.names{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 10%;
 }
 
 
