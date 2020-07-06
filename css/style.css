@@ -279,6 +279,8 @@ img.headshot-about{
   font-family: 'Raleway';
   font-size: 2rem;
   line-height: 4rem;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-bottom: 5%;
   padding-top: 1%;
   padding-right: 3%;
@@ -297,6 +299,8 @@ img.headshot-about{
   font-size: 2rem;
   line-height: 4rem;
   margin-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
   padding-top: 1%;
   padding-right: 3%;
   padding-left: 5%;
@@ -438,26 +442,22 @@ b{
 }
 
 .button:hover{
-  box-shadow: 0px 10px 10px #AFB4B4;
   color: #04262d;
   background: #EAC6A8;
 }
 
 .button-connect:hover{
-  box-shadow: 0px 10px 10px #AFB4B4;
   color: #04262d;
   background: #EAC6A8;
 }
 
 .casestudy-connect:hover{
-  box-shadow: 0px 10px 10px #AFB4B4;
   color: #04262d;
   background: #EAC6A8;
 }
 
 
 .buttoncasestudy:hover{
-  box-shadow: 0px 10px 10px #AFB4B4;
   color: #04262d;
   background: #EAC6A8;
 }
@@ -583,25 +583,31 @@ img.ccfpreview{
   display: flex;
   padding-bottom: 3%;
   padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .role{
-  margin-left: 25%;
-  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tools{
-  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .deliverables{
-  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .deliv{
   font-size: 3.125rem;
   line-height: 4rem;
   margin-left: 0;
+  padding-top: 0;
 }
 
 .delivs{
@@ -782,7 +788,7 @@ b.comps{
   width: 30%;
 }
 
-.alana{
+.alanaccf{
 padding-left: 10%;
 }
 
@@ -1083,7 +1089,6 @@ img.backtotop{
 
 .totop:hover{
   color: #07404C;
-  font-size: 2.4rem;
 }
 
 /***************************  FOOTER ***************************************/
@@ -1307,7 +1312,6 @@ p{
  padding-left: none;
  margin-bottom: 0;
  margin-bottom: 0;
-
 }
 
 .header-homepage{
@@ -1554,24 +1558,15 @@ h2{
 }
 
 
-.role{
-  padding: 1%;
-  margin-left:10%;
-}
-.deliverables{
-  padding: 0%;
-  margin-right: 10%;
-}
 
 .deliv-description{
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 
 }
 
-.tools{
-  padding:0%;
-}
+
 
 .twolist{
   margin-bottom: 1%;
@@ -1664,6 +1659,12 @@ h2{
 }
 
 .alana{
+  padding-left: 20%;
+  padding-top: 0%;
+  padding-bottom: 10%;
+}
+
+.alanaccf{
   padding-left: 20%;
   padding-top: 0%;
   padding-bottom: 10%;
@@ -2477,16 +2478,10 @@ img.headshot-about{
 }
 
 
-.role{
-  margin-left: 5%;
-}
-.deliverables{
-  margin-right: 5%;
+.deliv-description{
+  width: 100%;
 }
 
-.tools{
-  margin-left: 5%;
-}
 
 .casestudysection{
   margin-right: auto;
@@ -2606,6 +2601,13 @@ b.comps{
   padding-top: 10%;
   padding-bottom: 10%;
 }
+
+.alanaccf{
+  padding-left: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 h6{
   line-height: 3rem;
   width: 80%;
@@ -2715,8 +2717,12 @@ h6{
   padding-left: 10%;
 }
 
+
 .navbar{
-  margin-left: 0%;
+  margin-left: 8px;;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .project-hero{
@@ -2803,12 +2809,37 @@ h6{
 
 /**** caasestudy mobile 375****/
 
+.deliv-description{
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.deliv{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.delivs{
+  padding-left: 0%;
+}
+
 .keyword{
   width: 100%;
   margin-left: 0;
   margin-right: 0;
   padding-right: 10%;
 }
+
+.role{
+  padding-bottom: 3%;
+}
+.tools{
+  padding-bottom: 3%;
+}
+.deliverables{
+  padding-bottom: 3%;
+}
+
 
 .names{
   width: 100%;
