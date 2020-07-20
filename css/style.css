@@ -503,6 +503,14 @@ margin-bottom: 0;
   width: 100%;
 }
 
+.relateproject {
+  color: #07404C;
+  display: flex;
+  margin-bottom: 12%;
+  margin-top: 10%;
+  width: 100%;
+}
+
 .capstone{
   /*background-color: #FDEACE;*/
   flex: 1;
@@ -612,8 +620,8 @@ img.ccfpreview{
 }
 
 .delivs{
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
   list-style-type: none;
 }
 
@@ -708,7 +716,7 @@ img.ccfpreview{
 .squaretextblue{
   background-color: #BFD5DA;
   font-family: 'Raleway';
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 4rem;
   margin-bottom: 5%;
   margin-left: 25%;
@@ -734,9 +742,9 @@ img.ccfpreview{
 
 
 .comps{
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-family: 'Raleway';
-  line-height: 3rem;
+  line-height: 4rem;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -744,8 +752,8 @@ img.ccfpreview{
 
 b.comps{
   text-align: left;
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 2.4rem;
+  line-height: 4rem;
   font-weight: bolder;
 }
 
@@ -795,7 +803,7 @@ padding-left: 10%;
 
 .personatxt{
   font-family: 'Raleway';
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 3rem;
 }
 
@@ -811,6 +819,20 @@ padding-left: 10%;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+}
+
+.buttoncasestudysoon{
+  background-color: #E5E5E5;
+  border: none;
+  border-radius: 5px;
+  color: #07404C;
+  font-family: 'caviar_dreamsbold';
+  font-size: 2rem;
+  margin: 25% 0% 25% 25%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+
 }
 
 
@@ -1684,8 +1706,8 @@ b{
 }
 
 .comps{
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 2.4rem;
+  line-height: 4rem;
 }
 .buttoncasestudy{
   margin-left: 20%;
@@ -2593,7 +2615,7 @@ b.comps{
 }
 
 .personatxt{
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .courtney{
@@ -2619,7 +2641,7 @@ h6{
 }
 .comps{
   font-size: 2.4rem;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 .buttoncasestudy{
   margin-left: 10%;
