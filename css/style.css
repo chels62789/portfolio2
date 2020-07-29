@@ -2338,6 +2338,12 @@ h6{
   padding-bottom: 0;
 }
 
+.relateproject{
+  display:block;
+  margin-left: 0;
+  padding-bottom: 0;
+}
+
 .homedescription{
   padding-left: 10%;
   padding-right: 10%;
@@ -2647,6 +2653,10 @@ h6{
   margin-left: 10%;
 }
 
+.buttoncasestudysoon{
+  margin-left: 10%;
+}
+
 .audience{
   margin-left: auto;
   margin-right: auto;
@@ -2774,7 +2784,7 @@ h6{
 }
 
 .heroleft{
-  height: 305px;
+  height: 350px;
 }
 
 .heroright{
