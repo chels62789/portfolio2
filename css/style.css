@@ -394,7 +394,7 @@ b{
   background-color: #EAA166;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #AFB4B4;
+  box-shadow: 0px 2px 8px #CFD4D5;
   color: #07404C;
   font-family: 'caviar_dreamsbold';
   font-size: 2rem;
@@ -410,7 +410,7 @@ b{
   background-color: #EAA166;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #AFB4B4;
+  box-shadow: 0px 2px 8px #CFD4D5;
   color: #07404C;
   font-family: 'caviar_dreamsbold';
   font-size: 2rem;
@@ -432,7 +432,7 @@ b{
   background-color: #EAA166;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px #AFB4B4;
+  box-shadow: 0px 2px 8px #CFD4D5;
   color: #07404C;
   font-family: 'caviar_dreamsbold';
   font-size: 2rem;
@@ -810,7 +810,7 @@ padding-left: 10%;
 .buttoncasestudy{
   background-color: #EAA166;
   border: none;
-  box-shadow: 0px 4px 4px #AFB4B4;
+  box-shadow: 0px 2px 8px #CFD4D5;
   border-radius: 5px;
   color: #07404C;
   font-family: 'caviar_dreamsbold';
